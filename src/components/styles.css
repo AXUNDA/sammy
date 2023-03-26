@@ -1,0 +1,40 @@
+.sam {
+      object-fit: contain;
+
+}
+
+.nav {
+      display: flex;
+      gap: 446px;
+      margin-top: 72px;
+}
+
+.tag {
+      font-weight: 500;
+      cursor: pointer;
+}
+
+
+
+
+
+.tags {
+      color: #D2CECE;
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+}
+
+
+.main {
+      position: relative;
+      width: 400px;
+      border-radius: 100px;
+
+
+      background-color: #21201F;
+      border-left: 1px solid #555151;
+      border-top: 1px solid #555151;
+      border-bottom: 1px solid #555151;
+}
