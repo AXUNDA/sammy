@@ -1,22 +1,79 @@
-.sam {
-      object-fit: contain;
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 
+.sam {
+      object-fit: cover;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+
+}
+
+.home {
+      margin-top: 144px;
 }
 
 .nav {
       display: flex;
-      gap: 446px;
+      gap: 346px;
       margin-top: 72px;
+}
+
+.hi {
+      color: #F1F1F1;
+      font-family: 'MartianGroteskW05-sWdRg';
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      font-size: 50px;
+      letter-spacing: 0.013em;
+}
+
+.me {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 130%;
+      color: #D2CECE;
+      letter-spacing: 0.013em;
+      width: 613px;
+}
+
+.resume {
+      text-decoration: none;
+
+}
+
+.cv {
+      color: #F1F1F1;
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      border: 2px solid #EEE8E8;
+      width: 100px;
+      padding: 8px;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      justify-content: center;
+}
+
+.view {
+      color: #F1F1F1;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: end;
 }
 
 .tag {
       font-weight: 500;
       cursor: pointer;
 }
-
-
-
-
 
 .tags {
       color: #D2CECE;
@@ -37,4 +94,31 @@
       border-left: 1px solid #555151;
       border-top: 1px solid #555151;
       border-bottom: 1px solid #555151;
+}
+
+.line {
+      color: #D2CECE;
+      margin-bottom: 29px;
+}
+
+.featured {
+      font-family: 'MartianGroteskW05-sWdRg';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+}
+
+.bigCard {
+      width: 760px;
+      height: 880px;
+      background: #21201F;
+      border-radius: 32px;
+      margin-right: 100px;
 }

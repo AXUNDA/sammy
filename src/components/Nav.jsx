@@ -1,5 +1,5 @@
 import React from 'react'
-import sammy from "../assets/Ellipse 1.png"
+import sammy from "../assets/sammy.jpg"
 import "./styles.css"
 
 export default function Nav() {
