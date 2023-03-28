@@ -246,3 +246,9 @@
       /* object-fit: cover; */
       border-radius: 24px;
 }
+
+.card {
+      width: 612px;
+      height: 480px;
+      border-radius: 32px;
+}
