@@ -1,0 +1,44 @@
+.work {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 24px;
+}
+
+.show {
+      gap: 5px;
+      margin-bottom: 123.5px;
+      margin-top: 146.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: 'MartianGroteskW05-sWdRg';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+}
+
+.other {
+      margin-top: 84px;
+      font-family: 'MartianGroteskW05-sWdRg';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 130%;
+      /* identical to box height, or 47px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+
+}

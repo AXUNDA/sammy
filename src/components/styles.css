@@ -120,5 +120,129 @@
       height: 880px;
       background: #21201F;
       border-radius: 32px;
-      margin-right: 100px;
+      border: 1px solid #555151;
+      overflow: hidden;
+      position: relative;
+}
+
+.bigCard:hover .cardContent {
+      transform: translateX(-18px);
+}
+
+.cardContent {
+      margin-left: 100px;
+      margin-top: 80px;
+
+      position: absolute;
+      transition: transform 0.5s ease-in-out;
+
+
+}
+
+.bi-arrow-up-right {
+      color: #F1F1F1;
+}
+
+.header {
+      display: flex;
+      gap: 15.25px;
+      align-items: center;
+}
+
+.rule {
+      margin: 0;
+}
+
+.title {
+      font-family: 'MartianGroteskW05-WdxBd';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 0.013em;
+      color: #FFFFFF;
+}
+
+.desc {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 130%;
+      width: 556px;
+
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+}
+
+.niches {
+      display: flex;
+      gap: 14px;
+}
+
+.niche {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+
+      border-radius: 100px;
+      border: 1px solid #C7C2C2;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-right: 15px;
+      padding-left: 15px;
+      background: linear-gradient(90deg, rgba(238, 232, 232, 0.19) 0%, rgba(248, 248, 248, 0.106875) 97.27%, rgba(232, 228, 228, 0) 100%);
+
+}
+
+.cardImg {
+      /* position: absolute; */
+      width: 746px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 24px;
+      margin-top: 79px;
+}
+
+.smallCard {
+      height: 880px;
+      width: 536px;
+      background: #21201F;
+      border-radius: 32px;
+      border: 1px solid #555151;
+      overflow: hidden;
+      position: relative;
+}
+
+.smallCard:hover .cardContent {
+      transform: translateX(-18px);
+}
+
+.smallDesc {
+      width: 356px;
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      color: #F1F1F1;
+}
+
+.smallCardImg {
+      margin-top: 79px;
+      width: auto;
+      height: 515px;
+      /* object-fit: cover; */
+      border-radius: 24px;
 }
