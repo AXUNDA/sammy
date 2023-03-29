@@ -1,9 +1,20 @@
 import BigCard from "../components/BigCard"
+import Engagements from "../components/Engagements"
 import Home from "../components/Home"
 import Nav from "../components/Nav"
 import SmallCard from "../components/SmallCard"
 import "./styles.css"
-
+import event3 from "../assets/event3.jpg"
+import event4 from "../assets/event4.jpg"
+import event1 from "../assets/event1.png"
+import event2 from "../assets/event2.jpg"
+import "../fonts/MartianGrotesk-sWdRg.otf"
+import Connect from "../components/Connect"
+import Footer from "../components/Footer"
+import qwid from "../assets/qwid.png"
+import pudio from "../assets/pudio.png"
+import helene from "../assets/helene.png"
+import beacamp from "../assets/beacamp.png"
 
 function Main() {
 
@@ -13,14 +24,54 @@ function Main() {
                   <Nav />
                   <Home />
                   <div className="work">
-                        <BigCard />
-                        <SmallCard />
+                        <BigCard
+                              title={"qwid"}
+                              desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
+                              img={qwid}
+                              niche1={"Web App"}
+                              niche2={"Fin-Tech"}
+                              niche3={"Product"}
+
+
+                        />
+                        <SmallCard
+
+                              title={"pudio"}
+                              desc={"Pudio is a mobile app focused on bridging the gap between audio contents and video contents for knowledge seekers to acquire more knowledge anywhere and anytime."}
+                              niche1={"Mobile App"}
+                              niche2={"Edu-Tech"}
+                              niche3={"Product"}
+                              img={pudio}
+
+                        />
 
                   </div>
                   <div className="work">
-                        <SmallCard />
+                        <SmallCard
+                              title={"Helene"}
+                              desc={"Helene helps business owners and sales individuals achieve maximum accountability and efficiency by helping them to automate processes like invoicing, and finance from their mobile phones."}
+                              niche1={"Mobile App"}
+                              niche2={"Accounting"}
+                              niche3={"Product"}
+                              img={helene}
 
-                        <BigCard />
+
+
+
+                        />
+
+                        <BigCard
+                              title={"Beacamp"}
+                              desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
+                              img={beacamp}
+                              niche1={"Web App"}
+                              niche2={"Edu-Tech"}
+                              niche3={"Product"}
+
+
+
+
+                        />
 
                   </div>
                   <p className="show">
@@ -32,6 +83,16 @@ function Main() {
                   <p className="other">
                         My Other Engagements
                   </p>
+                  <div className="engagementBox">
+                        <Engagements text={"Public Speaking [Panelist Google Devfest 22]"} src={event3} />
+                        <Engagements text={"Mentorship [Design mentor at this tech thing]"} src={event4} />
+                  </div>
+                  <div className="engagementBox">
+                        <Engagements text={"Open Source contributions"} src={event1} />
+                        <Engagements text={"Design Community (co- founder)"} src={event2} />
+                  </div>
+                  <Connect />
+                  <Footer />
 
             </div>
       )

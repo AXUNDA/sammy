@@ -1,3 +1,10 @@
+@font-face {
+      font-family: "MartianGrotesk-sWdRg.otf";
+      /*Can be any text*/
+      src: local("MartianGrotesk-sWdRg.otf"),
+            url("../fonts/MartianGrotesk-sWdRg.otf") format("opentype");
+}
+
 .work {
       display: flex;
       gap: 24px;
@@ -12,7 +19,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-family: 'MartianGroteskW05-sWdRg';
+      font-family: 'MartianGrotesk-sWdRg.otf';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -28,7 +35,7 @@
 
 .other {
       margin-top: 84px;
-      font-family: 'MartianGroteskW05-sWdRg';
+      font-family: 'MartianGrotesk-sWdRg.otf';
       font-style: normal;
       font-weight: 400;
       font-size: 36px;
@@ -36,9 +43,19 @@
       /* identical to box height, or 47px */
 
       letter-spacing: 0.013em;
+      margin-bottom: 76px;
 
       /* text 1 */
 
       color: #F1F1F1;
+
+}
+
+.engagementBox {
+      display: flex;
+      /* gap: 91px; */
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 88px;
 
 }

@@ -1,16 +1,33 @@
 import React from 'react'
 import "./styles.css"
 import qwid from "../assets/qwid.png"
+import "../fonts/MartianGrotesk-WdxBd.otf"
+import "../fonts/Satoshi-Regular.otf"
 
-export default function BigCard() {
+
+export default function BigCard({ title, desc, img, niche1, niche2, niche3 }) {
 
 
       return (
-            <div id='bigCard' className='bigCard'>
+            <div id='bigCard' className='bigCard'
+                  onMouseOver={(e) => {
+                        e.currentTarget.style.background = 'rgb(29, 87, 237,.1)';
+
+
+                  }}
+                  onMouseOut={
+                        (e) => {
+                              e.currentTarget.style.backgroundColor = '#21201F';
+
+
+                        }
+                  }
+
+            >
                   <div className="cardContent">
                         <div className="header">
                               <h1 className="title">
-                                    qwid
+                                    {title}
                               </h1>
                               <div className='arrow'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">
@@ -22,21 +39,21 @@ export default function BigCard() {
 
                         </div>
                         <p className='desc'>
-                              qwid is a remittance platform,where users can perform cross-border payments
-                              easily and at an affordable rate ,it also provide remittance services
-
+                              {desc}
                         </p>
                         <div className="niches">
                               <h1 className="niche">
-                                    web app
+                                    {niche1}
                               </h1>
                               <h1 className="niche">
-                                    Fin-tech
+                                    {niche2}
+
                               </h1> <h1 className="niche">
-                                    Product
+                                    {niche3}
+
                               </h1>
                         </div>
-                        <img src={qwid} alt="" className='cardImg' />
+                        <img src={img} alt="" className='cardImg' />
 
                   </div>
             </div>

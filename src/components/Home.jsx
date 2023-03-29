@@ -1,5 +1,7 @@
 import React from 'react'
 import "./styles.css"
+import "../fonts/MartianGrotesk-sWdRg.otf"
+import "../fonts/Satoshi-Regular.otf"
 
 export default function Home() {
       return (

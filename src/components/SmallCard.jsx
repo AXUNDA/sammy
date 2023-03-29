@@ -1,13 +1,29 @@
 import React from 'react'
 import pudio from "../assets/pudio.png"
+import "../fonts/Satoshi-Regular.otf"
 
-export default function SmallCard() {
+
+export default function SmallCard({ title, desc, img, niche1, niche2, niche3 }) {
       return (
-            <div className='smallCard'>
+            <div className='smallCard'
+                  onMouseOver={(e) => {
+                        e.currentTarget.style.background = 'rgb(238, 99, 33,.1)';
+
+                  }}
+                  onMouseOut={
+                        (e) => {
+                              e.currentTarget.style.backgroundColor = '#21201F';
+
+
+                        }
+                  }
+
+
+            >
                   <div className="cardContent">
                         <div className="header">
                               <h1 className="title">
-                                    Pudio
+                                    {title}
 
                               </h1>
                               <div className="arrow">
@@ -18,20 +34,21 @@ export default function SmallCard() {
                               </div>
                         </div>
                         <p className="smallDesc">
-                              Pudio is a mobile app focused on bridging the gap between audio contents and video contents for knowledge seekers to acquire more knowledge anywhere and anytime.
-
+                              {desc}
                         </p>
                         <div className="niches">
                               <h1 className="niche">
-                                    Mobile app
+                                    {niche1}
                               </h1>
                               <h1 className="niche">
-                                    Edu-tech
+                                    {niche2}
+
                               </h1> <h1 className="niche">
-                                    Product
+                                    {niche3}
+
                               </h1>
                         </div>
-                        <img src={pudio} alt="" className='smallCardImg' />
+                        <img src={img} alt="" className='smallCardImg' />
 
                   </div>
 

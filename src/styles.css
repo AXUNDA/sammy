@@ -1,3 +1,18 @@
+@font-face {
+      font-family: "MartianGroteskVF-Regular";
+      /*Can be any text*/
+      src: local("MartianGroteskVF-Regular"),
+            url("../src/fonts/MartianGroteskVF-Regular.otf") format("opentype");
+}
+
+@font-face {
+      font-family: "MartianGrotesk-sWdRg.otf";
+      /*Can be any text*/
+      src: local("MartianGrotesk-sWdRg.otf"),
+            url("../src/fonts/MartianGrotesk-sWdRg.otf") format("opentype");
+}
+
+
 .work {
       display: flex;
       gap: 24px;
@@ -12,7 +27,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-family: 'MartianGroteskW05-sWdRg';
+      font-family: 'MartianGrotesk-sWdRg.otf';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -28,7 +43,7 @@
 
 .other {
       margin-top: 84px;
-      font-family: 'MartianGroteskW05-sWdRg';
+      font-family: 'MartianGrotesk-sWdRg.otf';
       font-style: normal;
       font-weight: 400;
       font-size: 36px;

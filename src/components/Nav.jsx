@@ -1,6 +1,8 @@
 import React from 'react'
 import sammy from "../assets/sammy.jpg"
 import "./styles.css"
+import "../fonts/Satoshi-Regular.otf"
+
 
 export default function Nav() {
       return (
