@@ -402,11 +402,15 @@
 
 }
 
+.card {
+      transition: border 0.3s ease;
+}
+
 .card:hover {
-      border: none;
-      border-image: linear-gradient(to right, #FFC371, #FF5F6D);
-      border-image-slice: 1;
-      border-width: 1px;
-      border-radius: 32px;
+      border-top: 2px solid #FFC371;
+      border-bottom: 2px solid #FF5F6D;
+      border-left: 2px solid purple;
+      border-right: 2px solid #FFC371;
+
 
 }
