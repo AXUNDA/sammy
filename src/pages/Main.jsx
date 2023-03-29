@@ -15,14 +15,26 @@ import qwid from "../assets/qwid.png"
 import pudio from "../assets/pudio.png"
 import helene from "../assets/helene.png"
 import beacamp from "../assets/beacamp.png"
+import { useState } from "react"
 
 function Main() {
+      const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+
+      const handleMouseMove = (event) => {
+            setCursorPosition({ x: event.clientX, y: event.clientY });
+      };
 
 
       return (
-            <div className="App">
+            <div className="App" onMouseMove={handleMouseMove}
+            // onScroll={handleMouseMove}
+            >
                   <Nav />
                   <Home />
+                  <div
+                        className="cursor"
+                        style={{ left: cursorPosition.x, top: cursorPosition.y }}
+                  />
                   <div className="work">
                         <BigCard
                               title={"qwid"}

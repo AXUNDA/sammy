@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./styles.css"
 import "../fonts/MartianGrotesk-sWdRg.otf"
 import "../fonts/Satoshi-Regular.otf"
 
 export default function Home() {
+
+
       return (
-            <div className='home'>
+            <div className='home'
+
+            >
                   <h1 className='hi'>Hi, I'm Samuel</h1>
+
                   <p className='me'>
                         I'm a Product designer who cares about solving complex problems,by deeply understanding the people around me and the world they live in
                   </p>

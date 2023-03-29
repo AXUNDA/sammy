@@ -29,15 +29,14 @@
 
 }
 
-.home {
-      margin-top: 144px;
-}
+.home {}
 
 .nav {
       display: flex;
       gap: 346px;
       margin-top: 72px;
       align-items: center;
+      margin-bottom: 144px;
 
 }
 
@@ -403,14 +402,23 @@
 }
 
 .card {
-      transition: border 0.3s ease;
+      transition: border 0.4s ease;
 }
 
 .card:hover {
-      border-top: 2px solid #FFC371;
-      border-bottom: 2px solid #FF5F6D;
-      border-left: 2px solid purple;
-      border-right: 2px solid #FFC371;
+      border-top: 1.5px solid #FFC371;
+      border-bottom: 1.5px solid #FF5F6D;
+      border-left: 1.5px solid purple;
+      border-right: 1.5px solid #FFC371;
 
 
+}
+
+.cursor {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #B0DAFF;
+      transition: transform 3s;
 }
