@@ -434,7 +434,16 @@
       border-radius: 32px;
       width: 813px;
       height: 736px;
+      transition: border 0.4s ease;
+      margin-bottom: 32px;
 
+}
+
+.aboutCard:hover {
+      border-top: 1.5px solid #FFC371;
+      border-bottom: 1.5px solid #FF5F6D;
+      border-left: 1.5px solid purple;
+      border-right: 1.5px solid #FFC371;
 }
 
 .aboutContent {
@@ -471,5 +480,160 @@
 
       color: #FFFFFF;
       margin-bottom: 45px;
+
+}
+
+.skills,
+.tools {
+      width: 612px;
+      height: 419px;
+
+      /* shades of darker */
+
+      background: #21201F;
+      border-radius: 32px;
+      border: 1px solid #555151;
+      transition: border 0.4s ease;
+}
+
+.tools:hover {
+      border-top: 1.5px solid #FFC371;
+      border-bottom: 1.5px solid #FF5F6D;
+      border-left: 1.5px solid purple;
+      border-right: 1.5px solid #FFC371;
+
+}
+
+.skills:hover {
+      border-top: 1.5px solid #FFC371;
+      border-bottom: 1.5px solid #FF5F6D;
+      border-left: 1.5px solid purple;
+      border-right: 1.5px solid #FFC371;
+
+
+}
+
+.skillsContent {
+      margin-top: 56px;
+      margin-left: 56px;
+}
+
+.skillTitle {
+      font-family: 'MartianGrotesk-sWdRg.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      margin-bottom: 56px;
+}
+
+.experience {
+      width: 100%;
+      height: 628px;
+      background: #21201F;
+      border-radius: 32px;
+      border: 1px solid #555151;
+      margin-top: 32px;
+      transition: border 0.4s ease;
+}
+
+.experience:hover {
+      border-top: 1.5px solid #FFC371;
+      border-bottom: 1.5px solid #FF5F6D;
+      border-left: 1.5px solid purple;
+      border-right: 1.5px solid #FFC371;
+
+}
+
+.experienceContent {
+      margin-top: 56px;
+      margin-left: 56px;
+      margin-right: 111px;
+}
+
+.experienceTitle {
+      font-family: 'MartianGrotesk-sWdRg.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      margin-bottom: 56px;
+
+}
+
+.years {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 20px;
+      margin-bottom: 5px;
+      margin-top: 0;
+
+}
+
+.year {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: lighter;
+      font-size: 11px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+}
+
+.jobDesc {
+      color: #F1F1F1;
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 130%;
+      /* identical to box height, or 42px */
+
+      letter-spacing: 0.013em;
+      margin-top: 10;
+
+}
+
+.where {
+      font-family: 'satoshi-regular';
+      font-weight: bold;
+      text-decoration: underline;
+      color: #F1F1F1;
+}
+
+.touch {
+      margin-top: 159px;
+      margin-bottom: 176px;
+}
+
+.getIn {
+      font-family: 'MartianGrotesk-sWdRg.otf';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 130%;
+      /* identical to box height, or 42px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
 
 }

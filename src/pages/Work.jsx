@@ -12,9 +12,22 @@ import Footer from '../components/Footer'
 
 export default function Work() {
       const [work, setWork] = useState(true)
+      const [cursorPosition, setCursorPosition] = useState({ x: -100, y: -100 });
+
+      const handleMouseMove = (event) => {
+            setTimeout(() => {
+                  setCursorPosition({ x: event.clientX, y: event.clientY });
+
+
+            }, 100)
+      };
       return (
-            <div className='works'>
+            <div className='works' onMouseMove={handleMouseMove}>
                   <Nav work={work} />
+                  <div
+                        className="cursor"
+                        style={{ left: cursorPosition.x, top: cursorPosition.y }}
+                  />
                   <div className="work">
                         <BigCard
                               title={"qwid"}

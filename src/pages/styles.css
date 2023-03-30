@@ -69,3 +69,10 @@
       transition: transform 3s;
       z-index: 99999;
 }
+
+.skillSection {
+      display: flex;
+      gap: 10px;
+      /* justify-content: space-between; */
+      /* align-items: center; */
+}
