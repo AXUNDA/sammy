@@ -89,3 +89,20 @@
       flex-direction: column;
       gap: 24px;
 }
+
+.socials {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+}
+
+.social {
+      display: flex;
+      gap: 24px;
+}
+
+.sc {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+}

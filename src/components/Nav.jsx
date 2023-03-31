@@ -25,7 +25,7 @@ export default function Nav({ work, about, contact }) {
 
                               </a>
                               <a className='navTags' href="/contact">
-                                    <p className='tag'>Contact</p>
+                                    <p style={{ background: contact ? '#595858' : 'auto', paddingTop: contact ? "4.5px" : "auto", borderRadius: contact ? "100px" : "auto", paddingBottom: contact ? "4.5px" : "auto", paddingLeft: contact ? "26px" : "auto", paddingRight: contact ? "26px" : "auto" }} className='tag'>Contact</p>
 
 
                               </a>
