@@ -7,7 +7,9 @@
 
 .work {
       display: flex;
-      gap: 24px;
+      justify-content: space-between;
+
+      /* gap: 24px; */
       margin-bottom: 24px;
 }
 
@@ -75,4 +77,15 @@
       gap: 10px;
       /* justify-content: space-between; */
       /* align-items: center; */
+}
+
+.section {
+      display: flex;
+      gap: 10px;
+}
+
+.playlist {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
 }

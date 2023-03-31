@@ -141,7 +141,8 @@
 }
 
 .bigCard {
-      width: 760px;
+      /* width: 760px; */
+      width: 58.5%;
       height: 880px;
       background: #21201F;
       border-radius: 32px;
@@ -242,7 +243,8 @@
 
 .smallCard {
       height: 880px;
-      width: 536px;
+      /* width: 536px; */
+      width: 40%;
       background: #21201F;
       border-radius: 32px;
       border: 1px solid #555151;
