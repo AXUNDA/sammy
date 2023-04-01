@@ -18,6 +18,7 @@ import beacamp from "../assets/beacamp.png"
 import { useState } from "react"
 
 function Main() {
+
       const [cursorPosition, setCursorPosition] = useState({ x: -100, y: -100 });
 
       const handleMouseMove = (event) => {
@@ -40,6 +41,7 @@ function Main() {
                         style={{ left: cursorPosition.x, top: cursorPosition.y }}
                   />
                   <div className="work">
+
                         <BigCard
                               title={"qwid"}
                               desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
@@ -50,6 +52,9 @@ function Main() {
 
 
                         />
+
+
+
                         <SmallCard
 
                               title={"pudio"}

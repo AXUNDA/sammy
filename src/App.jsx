@@ -4,6 +4,7 @@ import "../src/fonts/MartianGrotesk-sWdRg.otf"
 import Work from "./pages/Work"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import Qwid from "./pages/Qwid"
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/qwid" element={<Qwid />} />
+
 
 
 

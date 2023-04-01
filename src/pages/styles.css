@@ -5,6 +5,20 @@
             url("../fonts/MartianGrotesk-sWdRg.otf") format("opentype");
 }
 
+@font-face {
+      font-family: "MartianGrotesk-WdxBd.otf";
+      /*Can be any text*/
+      src: local("MartianGrotesk-WdxBd.otf"),
+            url("../fonts/MartianGrotesk-WdxBd.otf") format("opentype");
+}
+
+@font-face {
+      font-family: "satoshi-regular";
+      /*Can be any text*/
+      src: local("Satoshi-Regular.otf"),
+            url("../fonts/Satoshi-Regular.otf") format("opentype");
+}
+
 .work {
       display: flex;
       justify-content: space-between;
@@ -105,4 +119,28 @@
       display: flex;
       flex-direction: column;
       gap: 24px;
+}
+
+.hover-effect {
+      position: absolute;
+      background-color: pink;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+}
+
+.qwidHeader {
+      width: 1230px;
+      height: 643px;
+      background: #48BBED;
+      border-radius: 24px;
+}
+
+.qwidContainer {
+      margin-top: 83px;
+      margin-left: 48px;
+      display: flex;
+      gap: 193px;
 }

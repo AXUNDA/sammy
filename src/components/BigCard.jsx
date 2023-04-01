@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./styles.css"
 import qwid from "../assets/qwid.png"
 import "../fonts/MartianGrotesk-WdxBd.otf"
@@ -6,9 +7,11 @@ import "../fonts/Satoshi-Regular.otf"
 
 
 export default function BigCard({ title, desc, img, niche1, niche2, niche3 }) {
+      const navigate = useNavigate()
 
 
       return (
+
             <div id='bigCard' className='bigCard'
                   onMouseOver={(e) => {
                         e.currentTarget.style.background = 'rgb(29, 87, 237,.1)';
@@ -22,6 +25,9 @@ export default function BigCard({ title, desc, img, niche1, niche2, niche3 }) {
 
                         }
                   }
+                  onClick={() => {
+                        navigate(`/${title}`)
+                  }}
 
             >
                   <div className="cardContent">
