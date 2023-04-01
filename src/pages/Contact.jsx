@@ -5,6 +5,7 @@ import Twitter from '../components/Twitter'
 import Dribble from '../components/Dribble'
 import Behance from '../components/Behance'
 import LinkedIn from '../components/LinkedIn'
+import Project from '../components/Project'
 
 
 
@@ -44,6 +45,8 @@ export default function Contact() {
 
 
                   </div>
+                  <Project />
+
                   <div
                         className="cursor"
                         style={{ left: cursorPosition.x, top: cursorPosition.y }}
