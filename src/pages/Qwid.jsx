@@ -4,6 +4,12 @@ import Nav from '../components/Nav'
 import qwid from "../assets/qwid.png"
 import "../fonts/Satoshi-Regular.otf"
 import "../fonts/MartianGrotesk-WdxBd.otf"
+import wire1 from "../assets/wire_1.jpg"
+import wire2 from "../assets/wire2.jpg"
+import wire3 from "../assets/wire_3.jpg"
+import wire4 from "../assets/wire_4.jpg"
+import wire5 from "../assets/wire_5.jpg"
+import before from "../assets/before.png"
 
 
 
@@ -105,6 +111,109 @@ export default function Qwid() {
 
 
                   </div>
+                  <div className="discovery">
+                        <div className="discoveryContainer">
+                              <p className="discoveryTitle">
+                                    Swot Competitive Analysis
+                              </p>
+                              <p className="discoveryDesc">
+                                    Thoroughly analyzing competitors within a given market niche or sector is a crucial step towards developing successful products or services. By examining what competitors are doing well, identifying their weaknesses, and determining how to enhance a product for both business and customers, one can gain a competitive advantage.
+                              </p>
+                              <p className="discoveryDesc">
+                                    In accordance with this philosophy, I have compared different platforms that share similarities with the product I am designing, in an effort to determine whether this research can help improve the qwid experience for users while also benefitting our business. By analyzing the business features and requirements of qwid in conjunction with studying existing platforms,
+                              </p>
+
+
+
+                        </div>
+
+
+                  </div>
+                  <div className="wire">
+                        <div className="discoveryContainer">
+                              <p className="discoveryTitle">
+                                    Paper wireFrames
+                              </p>
+                              <div className="wireFrames">
+                                    <img src={wire1} alt="" className="wireImg" />
+                                    <img src={wire2} alt="" className="wireImg" />
+                                    <img src={wire3} alt="" className="wireImg" />
+                                    <img src={wire4} alt="" className="wireImg" />
+                                    <img src={wire5} alt="" className="wireImg" />
+
+
+
+
+
+                              </div>
+
+
+                        </div>
+
+
+                  </div>
+                  <div className="discovery">
+                        <div className="discoveryContainer">
+                              <p className="discoveryTitle">
+                                    Home Page
+                              </p>
+                              <p className="discoveryDesc">
+                                    Some design decisions and  features on the new  homepage improves the user experience,and the user journey during transaction includes
+
+                              </p>
+
+                              <ul>
+                                    <li>
+                                          Users can easily see the current conversion rate of the major currencies on the platform ,instead of going outside the platform to check exchange rates before making transactions ,this help users who want to make transactions or swap currencies be updated on the current exchange rate
+                                    </li>
+                                    <li>The dashboard displays all of your accounts ,allowing users to check account numbers when sending money from external sources to their qwid account . </li>
+                                    <li>The home screen displays current balances .In the new deign user can view their wallet balances across multiple accounts and perform quick transactions such as sending money(global transfer ) ,withdrawing funds,converting currencies and also topping up their wallets quickly  </li>
+                                    <li>There are some new features in the sidebar that simplify the experience and give user more confidence ,Poorly designed or tacky interfaces can undermine a brands reputation</li>
+                                    <li>The new design has CTA buttons,that prompt the user to either create a virtual  account or wallet</li>
+
+                              </ul>
+
+
+                        </div>
+
+
+                  </div>
+                  <div className="wire">
+
+
+                        <div className="Frames">
+                              <div className="proof">
+                                    <img src={before} alt="" className="before" />
+
+                                    <p className="proof">
+                                          before
+                                    </p>
+                              </div>
+                              <div className="proof">
+                                    <img src={qwid} alt="" className="after" />
+
+                                    <p className="proof">
+                                          after
+                                    </p>
+                              </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+                  </div>
+
+
+
+
 
             </div>
       )

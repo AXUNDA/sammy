@@ -378,3 +378,68 @@ li {
       color: #FFFFFF;
       margin-bottom: 8px;
 }
+
+.wireFrames {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: center;
+      justify-content: center;
+}
+
+.wireImg {
+      width: 242.67px;
+      height: 356.89px;
+      object-fit: cover;
+}
+
+.wire {
+      width: 100%;
+      height: auto;
+      margin-top: 24px;
+      padding-bottom: 20px;
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+      /* display: flex; */
+
+}
+
+.before {
+      object-fit: cover;
+      width: 486px;
+      height: 270.4px;
+}
+
+.after {
+      object-fit: cover;
+      width: 500.79px;
+      height: 351px;
+}
+
+.proof {
+      font-family: 'satoshi-regular';
+      margin-top: 15px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+}
+
+.dContainer {
+      margin-top: 20px;
+
+}
+
+.Frames {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+}
