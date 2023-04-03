@@ -132,15 +132,249 @@
 }
 
 .qwidHeader {
-      width: 1230px;
+      /* width: 1100px; */
+      width: 100%;
       height: 643px;
       background: #48BBED;
       border-radius: 24px;
+      overflow: hidden;
 }
 
+
 .qwidContainer {
-      margin-top: 83px;
+      margin-top: 33px;
       margin-left: 48px;
       display: flex;
-      gap: 193px;
+      align-items: center;
+      gap: 44px;
+      overflow: hidden;
+}
+
+.qwidTitle {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      margin-bottom: 16px;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+}
+
+.qwidYear {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+}
+
+.qwidNiches {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+}
+
+.qwidNiche {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      padding: 10px;
+      border-radius: 100px;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+      background: linear-gradient(90deg, rgba(238, 232, 232, 0.19) 0%, rgba(248, 248, 248, 0.106875) 97.27%, rgba(232, 228, 228, 0) 100%);
+      border: 1px solid #C7C2C2;
+}
+
+.qwidWorkTitle {
+      font-family: 'satoshi-regular';
+      margin-bottom: 24px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+}
+
+.qwidLast {
+      display: flex;
+      flex-direction: column;
+      gap: 19px;
+}
+
+.lastItem {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+
+      letter-spacing: 0.013em;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+}
+
+.qwidImg {
+      margin-top: 63px;
+      width: 722.5px;
+      height: 100%;
+      object-fit: cover;
+      border-top-left-radius: 12px;
+}
+
+.qwid {
+      width: 100%;
+
+}
+
+
+.qwidOverView_Problem {
+      display: flex;
+      gap: 24px;
+      width: 100%;
+      margin-top: 56px;
+}
+
+.qwidOverview,
+.qwidProblem {
+      width: 612px;
+      height: 476px;
+
+      /* shades of darker */
+
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+}
+
+.overviewContainer {
+      margin: 80px 10px auto 56px
+}
+
+.overviewHeader {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      margin-bottom: 40px;
+}
+
+.overviewDesc {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 130%;
+      /* or 26px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+
+}
+
+.discovery {
+      width: 100%;
+      height: 654px;
+      margin-top: 24px;
+
+
+      /* shades of darker */
+
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+}
+
+.discoveryContainer {
+      margin-top: 80px;
+      margin-left: 56px;
+      margin-right: 56px;
+}
+
+.discoveryTitle {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      margin-bottom: 40px;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+}
+
+.discoveryDesc {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 130%;
+      /* or 26px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      margin-bottom: 40px;
+}
+
+.listTitle {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 130%;
+      /* identical to box height, or 26px */
+
+
+      color: #FFFFFF;
+}
+
+li {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 130%;
+      /* or 26px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      margin-bottom: 8px;
 }

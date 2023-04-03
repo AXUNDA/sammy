@@ -3,7 +3,8 @@
 }
 
 body {
-  margin-left: 96px;
-  margin-right: 96px;
+  margin-left: 86px;
+  margin-right: 86px;
   background-color: #040404;
+  /* border: 3px solid red; */
 }
