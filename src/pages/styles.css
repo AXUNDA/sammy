@@ -589,3 +589,12 @@ li {
 
       color: #F1F1F1;
 }
+
+.scrollButton {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      cursor: pointer;
+      background-color: #21201F;
+      border-radius: 8px;
+}
