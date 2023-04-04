@@ -10,6 +10,7 @@ import wire3 from "../assets/wire_3.jpg"
 import wire4 from "../assets/wire_4.jpg"
 import wire5 from "../assets/wire_5.jpg"
 import before from "../assets/before.png"
+import analysis from "../assets/competitve Analysis 1.png"
 
 
 
@@ -111,7 +112,7 @@ export default function Qwid() {
 
 
                   </div>
-                  <div className="discovery">
+                  <div className="wire">
                         <div className="discoveryContainer">
                               <p className="discoveryTitle">
                                     Swot Competitive Analysis
@@ -122,6 +123,7 @@ export default function Qwid() {
                               <p className="discoveryDesc">
                                     In accordance with this philosophy, I have compared different platforms that share similarities with the product I am designing, in an effort to determine whether this research can help improve the qwid experience for users while also benefitting our business. By analyzing the business features and requirements of qwid in conjunction with studying existing platforms,
                               </p>
+                              <img src={analysis} alt="" className="analysis" />
 
 
 
