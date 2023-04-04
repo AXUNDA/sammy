@@ -21,6 +21,14 @@ import convertb4 from "../assets/convertBefore.png"
 import convertAfter from "../assets/convertAfter.png"
 import allT from "../assets/allTransactions.png"
 import Td from "../assets/transaction details.png"
+import card1 from "../assets/Virtual cards 1.png"
+import card2 from "../assets/Virtual cards2.png"
+import card3 from "../assets/Virtual cards3.png"
+import settings1 from "../assets/settings1.png"
+import settings2 from "../assets/settings2.png"
+import settings3 from "../assets/settings3.png"
+import Footer from "../components/Footer"
+
 
 
 
@@ -432,6 +440,95 @@ export default function Qwid() {
 
                         </div>
                   </div>
+
+                  <div className="send virtual">
+                        <div className="sendContainer">
+                              <p className="sendTitle">Virtual cards</p>
+                              <p className="discoveryDesc">
+                                    Users can create virtual cards, fund their cards and make transactions anywhere in the globe. This is another key feature that stood out the most in the revamp of the qwid interface.
+
+                              </p>
+
+                              <div className="Frames">
+                                    <div className="proof card_1">
+                                          <img src={card1} alt="" className="sending left_card" />
+
+
+                                    </div>
+                                    <div className="proof card_2">
+                                          <img src={card2} alt="" className="sending" />
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                              </div>
+                              <div className="lastImg">
+                                    <img src={card3} alt="" className="finalImg" />
+
+                              </div>
+
+
+                        </div>
+                  </div>
+                  <div className="send virtual">
+                        <div className="sendContainer">
+                              <p className="sendTitle">Settings</p>
+                              <p className="discoveryDesc">
+                                    On the settings page users can update, edit their profile as well as set up notifications and 2FA for an extra layer of security.
+
+                              </p>
+
+                              <div className="Frames">
+                                    <div className="proof card_1">
+                                          <img src={settings1} alt="" className="sending left_card" />
+
+
+                                    </div>
+                                    <div className="proof card_2">
+                                          <img src={settings2} alt="" className="sending " />
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                              </div>
+                              <div className="lastImg">
+                                    <img src={settings3} alt="" className="finalImg settingsImg" />
+
+                              </div>
+
+
+                        </div>
+                  </div>
+                  <div className="pagination">
+                        <p className="paginate">Previous project</p>
+                        <p className="paginate">Next project</p>
+
+
+                  </div>
+                  <Footer />
+
+
+
 
 
 

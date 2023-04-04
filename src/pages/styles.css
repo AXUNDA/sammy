@@ -525,3 +525,67 @@ li {
 .convert {
       margin-left: 40px;
 }
+
+.card_2 {
+      position: relative;
+      right: 50px;
+      bottom: 20px;
+}
+
+.card_1 {
+      position: relative;
+      left: 20px;
+
+}
+
+.left_card {
+      width: 570px;
+
+}
+
+.lastImg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.finalImg {
+      width: 704px;
+      height: 679.04px;
+      position: relative;
+      bottom: 170px;
+      object-fit: cover;
+}
+
+.virtual {
+      height: 1250px;
+}
+
+.settingsImg {
+      width: 840px;
+
+}
+
+.pagination {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 70px;
+      /* margin-bottom: 70px; */
+}
+
+.paginate {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+      cursor: pointer;
+
+      /* text 1 */
+
+      color: #F1F1F1;
+}
