@@ -11,6 +11,16 @@ import wire4 from "../assets/wire_4.jpg"
 import wire5 from "../assets/wire_5.jpg"
 import before from "../assets/before.png"
 import analysis from "../assets/competitve Analysis 1.png"
+import outside from "../assets/outside_qwid_user.png"
+import to from "../assets/to_qwid_user.png"
+import ngn from "../assets/ngn.png"
+import gbp from "../assets/gbp.png"
+import beforeDashboard from "../assets/beforeDashboard.png"
+import afterDashboard from "../assets/afterDashboard.png"
+import convertb4 from "../assets/convertBefore.png"
+import convertAfter from "../assets/convertAfter.png"
+import allT from "../assets/allTransactions.png"
+import Td from "../assets/transaction details.png"
 
 
 
@@ -212,11 +222,224 @@ export default function Qwid() {
 
 
                   </div>
+                  <div className="send">
+                        <div className="sendContainer">
+                              <p className="sendTitle">Send Money</p>
+                              <div className="Frames">
+                                    <div className="proof">
+                                          <img src={outside} alt="" className="sending" />
+
+                                          <p className="proof">
+                                                Sending outside a qwid user
+                                          </p>
+                                    </div>
+                                    <div className="proof">
+                                          <img src={to} alt="" className="sending" />
+
+                                          <p className="proof">
+                                                sending to a qwid user
+                                          </p>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                              </div>
+
+
+                        </div>
+                  </div>
+                  <div className="balance">
+                        <div className="balanceContainer">
+                              <p className="balanceTitle">
+                                    wallet Balance
+                              </p>
+                              <p className="discoveryDesc">
+                                    The revamp of qwid introduced the Balances feature. In the old interface, users didn't have a designated page or flow to view their wallet balance rather it was displayed on the side navigation. Some noticeable actions user can perform with this new balance feature includes:
+
+                              </p>
+                              <ul>
+                                    <li>
+                                          Users can easily see all their wallet balances,they can navigate between different wallet balances,with a simple click and a drop down that shows their different wallets
+                                    </li>
+                                    <li>
+                                          Users csn navigate between different wallet balances with a simple click and a dropdown that shows their different wallets
+                                    </li>
+                                    <li>
+                                          Users can also see the various transactions for each of their wallets
+                                    </li>
+                                    <li>
+                                          They can also perform transactions like send,Transfer,top-up,conversion and withdrawal
+                                    </li>
+                              </ul>
+
+                        </div>
+                  </div>
+                  <div className="send">
+                        <div className="sendContainer">
+                              {/* <p className="sendTitle">Send Money</p> */}
+                              <div className="Frames">
+                                    <div className="proof">
+                                          <img src={gbp} alt="" className="sending" />
+
+                                          <p className="proof">
+                                                GBP wallet balance
+                                          </p>
+                                    </div>
+                                    <div className="proof">
+                                          <img src={ngn} alt="" className="sending" />
+
+                                          <p className="proof">
+                                                NGN wallet balance
+                                          </p>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                              </div>
+
+
+                        </div>
+                  </div>
+                  <div className="balance">
+                        <div className="balanceContainer">
+                              <p className="balanceTitle">
+                                    Virtual accounts
+                              </p>
+                              <p className="discoveryDesc">
+                                    On the old interface, users do not have a clear view of their accounts; also the account information was not clearly stated and they could only access two accounts at a time. The new interface provides users access to all their virtual accounts. Also, they can interact and add multiple accounts to their already existing account. This feature was one of the major improvements made on the qwid revamp virtual card section.
+
+                              </p>
+
+
+                        </div>
+                  </div>
+                  <div className="wire">
+
+
+                        <div className="Frames">
+                              <div className="proof">
+                                    <img src={beforeDashboard} alt="" className="before" />
+
+                                    <p className="proof">
+                                          before
+                                    </p>
+                              </div>
+                              <div className="proof">
+                                    <img src={afterDashboard} alt="" className="after" />
+
+                                    <p className="proof">
+                                          after
+                                    </p>
+                              </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+                  </div>
+                  <div className="wire">
+                        <p className="balanceTitle convert">
+                              convert funds
+                        </p>
+
+
+                        <div className="Frames">
+                              <div className="proof">
+                                    <img src={convertb4} alt="" className="before" />
+
+                                    <p className="proof">
+                                          before
+                                    </p>
+                              </div>
+                              <div className="proof">
+                                    <img src={convertAfter} alt="" className="after" />
+
+                                    <p className="proof">
+                                          after
+                                    </p>
+                              </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+                  </div>
+                  <div className="send">
+                        <div className="sendContainer">
+                              <p className="sendTitle">Transactions</p>
+                              <p className="discoveryDesc">
+                                    User can see all their transactions on the this page, which was unavailable on the old design. There’s also a search feature for find a particular transaction easily and quickly
+
+                              </p>
+
+                              <div className="Frames">
+                                    <div className="proof">
+                                          <img src={allT} alt="" className="sending" />
+
+                                          <p className="proof">
+                                                All transactions made
+                                          </p>
+                                    </div>
+                                    <div className="proof">
+                                          <img src={Td} alt="" className="sending" />
+
+                                          <p className="proof">
+                                                Transaction details
+                                          </p>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                              </div>
+
+
+                        </div>
+                  </div>
+
+
 
 
 
 
 
             </div>
+
       )
 }

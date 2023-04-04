@@ -407,8 +407,8 @@ li {
 
 .before {
       object-fit: cover;
-      width: 486px;
-      height: 270.4px;
+      width: 500px;
+      height: 290.4px;
       border-radius: 12px;
 }
 
@@ -450,4 +450,78 @@ li {
       width: 100%;
       height: 580px;
       object-fit: cover;
+}
+
+.send {
+
+      width: 100%;
+      height: auto;
+      margin-top: 24px;
+      padding-bottom: 20px;
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+
+}
+
+.sendTitle {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      margin-bottom: 40px;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+
+}
+
+.sendContainer {
+      margin-top: 80px;
+      margin-left: 26px;
+      margin-right: 26px;
+
+}
+
+.sending {
+      width: 520px;
+      height: 450px;
+      object-fit: cover;
+}
+
+.balanceContainer {
+      margin-top: 80px;
+      margin-left: 26px;
+      margin-right: 26px;
+
+}
+
+.balance {
+      width: 100%;
+      height: auto;
+      margin-top: 24px;
+      padding-bottom: 20px;
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+
+}
+
+.balanceTitle {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      margin-bottom: 40px;
+      letter-spacing: 0.013em;
+      color: #FFFFFF;
+
+}
+
+.convert {
+      margin-left: 40px;
 }
