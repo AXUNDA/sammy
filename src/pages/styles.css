@@ -296,7 +296,7 @@
       font-family: 'satoshi-regular';
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 17px;
       line-height: 130%;
       /* or 26px */
 
@@ -343,7 +343,7 @@
       font-family: 'satoshi-regular';
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 17px;
       line-height: 130%;
       /* or 26px */
 
@@ -369,7 +369,7 @@ li {
       font-family: 'satoshi-regular';
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       line-height: 130%;
       /* or 26px */
 
@@ -597,4 +597,339 @@ li {
       cursor: pointer;
       background-color: #21201F;
       border-radius: 8px;
+}
+
+.pudioHeader {
+      width: 100%;
+      height: 633px;
+      background: #014B94;
+      border-radius: 24px;
+      overflow: hidden;
+
+}
+
+.pudioHeaderImg1 {
+      width: 241px;
+      height: 522.53px;
+      object-fit: cover;
+      position: relative;
+      top: 100px;
+
+}
+
+.pudioHeaderImg2 {
+      width: 241px;
+      height: 522.53px;
+      object-fit: cover;
+}
+
+.pudioImages {
+      display: flex;
+      gap: 24px;
+}
+
+.pudioContainer {
+      margin-top: 33px;
+      margin-left: 48px;
+      display: flex;
+      align-items: center;
+      gap: 150px;
+      /* overflow: hidden; */
+
+}
+
+.pudioHeadline {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 130%;
+      /* identical to box height, or 26px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+
+}
+
+.pudioLongCard {
+      width: 612px;
+      height: 630px;
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+}
+
+.longCardContainer {
+      /* margin-top: 63px;
+      margin-left: 56px; */
+      margin: 80px 30px auto 56px
+}
+
+.Desc {
+      color: white;
+      font-family: 'satoshi-regular';
+
+}
+
+.talkToUsers {
+
+      padding-top: 80px;
+      padding-bottom: 80px;
+      padding-left: 56px;
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+      margin-top: 56px;
+}
+
+.talkContainer {
+      margin-right: 40px;
+      margin-left: 40px;
+}
+
+.persona {
+      display: flex;
+      gap: 24px;
+      width: 100%;
+      margin-top: 56px;
+      /* align-items: flex-start; */
+}
+
+.userPersona {
+      padding-top: 30px;
+      padding-bottom: 80px;
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+      width: 612px;
+}
+
+.personaContainer {
+      margin-left: 30px;
+
+      margin-right: 15px;
+
+}
+
+.personaBio {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 28px;
+}
+
+.bioImg {
+      width: 127px;
+      height: 218px;
+      object-fit: cover;
+}
+
+.bioTag {
+      color: #F1F1F1;
+      background-color: #6D6C6C;
+      padding-top: 3.5px;
+      padding-bottom: 3.5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 4px;
+      font-family: 'satoshi-regular';
+      width: 25px;
+}
+
+.bioExp {
+      color: #F1F1F1;
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 150%;
+      /* or 24px */
+
+      letter-spacing: -0.019em;
+
+      /* text 3 */
+
+      color: #D2CECE;
+}
+
+.bioDetailsTag {
+      color: #F1F1F1;
+      background-color: #6D6C6C;
+      padding-top: 3.5px;
+      padding-bottom: 3.5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 4px;
+      font-family: 'satoshi-regular';
+      width: 45px;
+
+}
+
+.profileDetails {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+}
+
+.detailsX {
+      font-style: normal;
+      font-family: 'satoshi-regular';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      letter-spacing: -0.019em;
+
+      /* text 3 */
+
+      color: #D2CECE;
+
+}
+
+.detailsX {
+      margin-top: 8px;
+      margin-bottom: 8px;
+}
+
+.goals {
+      color: #F1F1F1;
+      background-color: #6D6C6C;
+      padding-top: 3.5px;
+      padding-bottom: 3.5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 4px;
+      font-family: 'satoshi-regular';
+      width: 45px;
+
+}
+
+.profileList {
+      color: #D2CECE;
+
+}
+
+.frustrations {
+      color: #F1F1F1;
+      background-color: #6D6C6C;
+      padding-top: 3.5px;
+      padding-bottom: 3.5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 4px;
+      font-family: 'satoshi-regular';
+      width: 79px;
+
+}
+
+.mb-5 {
+      margin-bottom: 44px;
+}
+
+.userFlow {
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+      padding-bottom: 65px;
+      margin-top: 56px;
+
+}
+
+.userFlowContainer {
+      margin-top: 60px;
+      margin-left: 56px;
+      margin-right: 56px;
+
+}
+
+.userFlowImg {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+}
+
+.pudioPaper {
+      width: 100%;
+      height: 355px;
+      object-fit: cover;
+}
+
+.hifiMockups {
+      background: #21201F;
+      border-radius: 24px;
+      border: 1px solid #555151;
+      padding-bottom: 65px;
+      margin-top: 56px;
+
+
+}
+
+.hifiHeader {
+      font-family: 'MartianGrotesk-WdxBd.otf';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 130%;
+      /* or 31px */
+
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      margin-bottom: 40px;
+      margin-left: 56px;
+
+}
+
+.hifiImages {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 70px;
+}
+
+.hifiImg {
+      width: 243.4px;
+      height: 527.73px;
+      object-fit: cover;
+
+}
+
+.authenticationImages {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* gap: 10px; */
+      flex-wrap: wrap;
+
+}
+
+.pudioHomeContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      /* width: 530px; */
+}
+
+.pudioTextHelp {
+      font-family: 'satoshi-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+
+      text-align: center;
+      letter-spacing: 0.013em;
+
+      color: #FFFFFF;
+      width: 270.5px;
+      margin-top: 0;
+}
+
+.pudioHomeImages {
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
 }

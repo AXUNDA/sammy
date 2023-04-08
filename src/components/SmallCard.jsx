@@ -1,9 +1,12 @@
 import React from 'react'
 import pudio from "../assets/pudio.png"
 import "../fonts/Satoshi-Regular.otf"
+import { useNavigate } from 'react-router-dom'
+
 
 
 export default function SmallCard({ title, desc, img, niche1, niche2, niche3 }) {
+      const navigate = useNavigate()
       return (
             <div className='smallCard'
                   onMouseOver={(e) => {
@@ -17,6 +20,9 @@ export default function SmallCard({ title, desc, img, niche1, niche2, niche3 }) 
 
                         }
                   }
+                  onClick={() => {
+                        navigate(`/${title}`)
+                  }}
 
 
             >

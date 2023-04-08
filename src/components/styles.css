@@ -29,14 +29,16 @@
 
 }
 
-.home {}
+.home {
+      margin-top: 140px;
+}
 
 .nav {
       display: flex;
       gap: 346px;
       margin-top: 72px;
       align-items: center;
-      margin-bottom: 144px;
+      margin-bottom: 60px;
 
 }
 
@@ -149,6 +151,7 @@
       border: 1px solid #555151;
       overflow: hidden;
       position: relative;
+      cursor: pointer;
 }
 
 .bigCard:hover .cardContent {

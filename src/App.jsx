@@ -5,6 +5,7 @@ import Work from "./pages/Work"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Qwid from "./pages/Qwid"
+import Pudio from "./pages/Pudio"
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/qwid" element={<Qwid />} />
+        <Route path="/pudio" element={<Pudio />} />
+
 
 
 
