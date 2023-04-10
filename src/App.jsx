@@ -6,6 +6,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Qwid from "./pages/Qwid"
 import Pudio from "./pages/Pudio"
+import Helene from "./pages/Helene"
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/qwid" element={<Qwid />} />
         <Route path="/pudio" element={<Pudio />} />
+        <Route path="/helene" element={<Helene />} />
+
 
 
 
