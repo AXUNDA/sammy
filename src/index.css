@@ -3,8 +3,24 @@
 }
 
 body {
-  margin-left: 86px;
-  margin-right: 86px;
+  /* margin-left: 86px;
+  margin-right: 86px; */
   background-color: #040404;
-  /* border: 3px solid red; */
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1re, ;
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding: 0 20px;
+  }
+
+
+  /* CSS */
+
 }

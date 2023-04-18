@@ -29,6 +29,8 @@
 
 }
 
+
+
 .home {
       margin-top: 140px;
 }
@@ -36,11 +38,29 @@
 .nav {
       display: flex;
       gap: 346px;
+
+
+
       margin-top: 72px;
       align-items: center;
       margin-bottom: 60px;
 
 }
+
+.main {
+      /* position: relative; */
+
+
+      width: 400px;
+      border-radius: 100px;
+
+
+      background-color: #21201F;
+      border-left: 1px solid #555151;
+      border-top: 1px solid #555151;
+      border-bottom: 1px solid #555151;
+}
+
 
 .hi {
       color: #F1F1F1;
@@ -71,6 +91,7 @@
 .cv {
       color: #F1F1F1;
       font-family: 'satoshi-regular';
+      transition: transform 1.9s ease-in-out;
 
       font-style: normal;
       font-weight: 500;
@@ -85,6 +106,17 @@
       gap: 5px;
       justify-content: center;
 }
+
+/* .cv:hover+.bi-arrow-up-right {
+      display: flex;
+} */
+
+
+
+
+
+
+
 
 .view {
       color: #F1F1F1;
@@ -111,17 +143,7 @@
 }
 
 
-.main {
-      position: relative;
-      width: 400px;
-      border-radius: 100px;
 
-
-      background-color: #21201F;
-      border-left: 1px solid #555151;
-      border-top: 1px solid #555151;
-      border-bottom: 1px solid #555151;
-}
 
 .line {
       color: #D2CECE;
@@ -168,9 +190,14 @@
 
 }
 
-.bi-arrow-up-right {
-      color: #F1F1F1;
-}
+
+
+
+
+
+
+
+
 
 .header {
       display: flex;
@@ -209,6 +236,7 @@
 .niches {
       display: flex;
       gap: 14px;
+      flex-wrap: wrap;
 }
 
 .niche {
@@ -271,21 +299,26 @@
 
 .smallCardImg {
       margin-top: 79px;
-      width: auto;
+      width: 400px;
       height: 515px;
       /* object-fit: cover; */
-      border-radius: 24px;
+      border-top-left-radius: 24px;
 }
 
 .card {
-      width: 505px;
-      height: 480px;
+      width: 100%;
+      height: 380px;
       border-radius: 32px;
       margin-bottom: 32px;
       object-fit: cover;
       border: 1px solid #D2CECE;
 
 
+}
+
+.engagements {
+      width: 49%;
+      /* overflow: hidden; */
 }
 
 
@@ -438,10 +471,11 @@
       border: 1px solid #555151;
       border-radius: 32px;
       width: 70%;
-      height: 636px;
+      /* height: 636px; */
       transition: border 0.4s ease;
       /* margin-bottom: 32px; */
-      padding-bottom: 10px;
+      /* padding-bottom: 10px; */
+      /* height: 100%; */
 
 }
 
@@ -493,7 +527,8 @@
 .tools {
       /* width: 532px; */
       width: 49.6%;
-      height: 419px;
+      padding-bottom: 20px;
+      /* height: 419px; */
 
       /* shades of darker */
 
@@ -731,4 +766,59 @@
       letter-spacing: 0.013em;
 
       color: #FFFFFF;
+}
+
+.right-arrow {
+      display: none;
+}
+
+.cv:hover .right-arrow {
+      display: flex;
+      /* color: red; */
+}
+
+.cv:hover .bi-arrow-up-right {
+      display: none;
+      /* color: red; */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+      .footerDivs {
+            gap: 0;
+            justify-content: space-between;
+      }
+
+      .cardContent {
+            margin-left: 10px;
+      }
+
+      .smallCard {
+            width: 48%;
+
+      }
+
+      .bigCard {
+            width: 50%;
+
+
+      }
+
+      .desc {
+            font-size: 16px;
+            width: 300px;
+      }
+
+      .skillsContent {
+            margin-left: 10px;
+      }
+
+      .nav {
+            gap: 165px;
+      }
+
+
+
+
+      /* CSS */
+
 }

@@ -19,6 +19,8 @@
             url("../fonts/Satoshi-Regular.otf") format("opentype");
 }
 
+
+
 .work {
       display: flex;
       justify-content: space-between;
@@ -39,6 +41,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
+      transition: font-size 0.8s ease-out, filter 0.2s ease-out;
       line-height: 130%;
       /* identical to box height, or 21px */
 
@@ -48,6 +51,22 @@
 
       color: #F1F1F1;
 }
+
+.show:hover {
+      font-size: 18px;
+      font-weight: bolder;
+      /* filter: blur(2px); */
+      transition: font-size 0.8s ease-out, filter 0.2s ease-out;
+      cursor: pointer;
+      /* filter: blur(1px); */
+
+}
+
+
+
+
+
+
 
 .other {
       margin-top: 84px;
@@ -73,6 +92,7 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 88px;
+      padding: 0 5px;
 
 }
 
@@ -96,6 +116,7 @@
 .section {
       display: flex;
       justify-content: space-between;
+      padding-bottom: 15px;
       margin-bottom: 32px;
 }
 
@@ -104,6 +125,7 @@
       flex-direction: column;
       justify-content: space-between;
       width: 29.3%;
+
 }
 
 .socials {
@@ -183,6 +205,7 @@
 
 .qwidNiches {
       display: flex;
+      flex-wrap: wrap;
       gap: 16px;
       margin-bottom: 24px;
 }
@@ -601,6 +624,7 @@ li {
       cursor: pointer;
       background-color: #21201F;
       border-radius: 8px;
+      width: 50px;
 }
 
 .pudioHeader {
@@ -890,6 +914,7 @@ li {
 
 .hifiImages {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       gap: 70px;
@@ -937,5 +962,98 @@ li {
 .pudioHomeImages {
       display: flex;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       /* flex-wrap: wrap; */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+      .socials {
+            flex-direction: column;
+      }
+
+      .sc {
+            width: 513px;
+      }
+
+      .pudioContainer {
+            margin-left: 20px;
+            gap: 30px;
+      }
+
+      .pudioHeaderImg1 {
+            width: 240px;
+      }
+
+      .pudioHeaderImg1 {
+            width: 250px;
+      }
+
+      .qwidOverview,
+      .qwidProblem {
+
+            height: auto;
+            padding-bottom: 20px;
+
+            /* shades of darker */
+
+      }
+
+      .pudioLongCard {
+
+            height: auto;
+            padding-bottom: 20px;
+
+      }
+
+      .pudioHomeImages {
+
+            flex-wrap: wrap;
+      }
+
+      .qwidImg {
+
+            width: 600.5px;
+            height: 650px;
+
+
+      }
+
+      .qwidHeader {
+            /* width: 1100px; */
+
+            height: auto;
+
+      }
+
+      .qwidContainer {
+
+            margin-left: 28px;
+
+
+      }
+
+      .before {
+            width: 95%;
+      }
+
+      .after {
+            width: 95%;
+      }
+
+      .sending {
+            width: 95%;
+      }
+
+      .settingsImg {
+            width: 95%;
+      }
+
+      .cursor {
+            display: none;
+      }
+
+
+      /* CSS */
+
 }

@@ -31,19 +31,12 @@ export default function Contact() {
                               <div className="social">
                                     <Twitter />
                                     <Dribble />
-
                               </div>
                               <div className="social">
                                     <Behance />
                                     <LinkedIn />
-
                               </div>
-
                         </div>
-
-
-
-
                   </div>
                   <Project />
 
@@ -51,8 +44,6 @@ export default function Contact() {
                         className="cursor"
                         style={{ left: cursorPosition.x, top: cursorPosition.y }}
                   />
-
-
             </div>
       )
 }
