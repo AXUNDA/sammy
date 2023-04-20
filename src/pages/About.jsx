@@ -22,10 +22,7 @@ export default function About() {
       return (
             <div className='about' onMouseMove={handleMouseMove}>
                   <Nav about={about} />
-                  <div
-                        className="cursor"
-                        style={{ left: cursorPosition.x, top: cursorPosition.y }}
-                  />
+
                   <div className="section">
                         <AboutCard />
                         <div className="playlist">
@@ -42,6 +39,10 @@ export default function About() {
 
 
                   </div>
+                  <div
+                        className="cursor"
+                        style={{ left: cursorPosition.x, top: cursorPosition.y }}
+                  />
                   <Experience />
                   <Touch />
                   <Footer />

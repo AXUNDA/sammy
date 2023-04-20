@@ -13,25 +13,33 @@ function App() {
 
 
   return (
-    <Router>
+    <main>
+      <Router>
 
 
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/qwid" element={<Qwid />} />
-        <Route path="/pudio" element={<Pudio />} />
-        <Route path="/helene" element={<Helene />} />
+        <Routes>
+
+          <Route path="/" element={<Main />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/qwid" element={<Qwid />} />
+          <Route path="/pudio" element={<Pudio />} />
+          <Route path="/helene" element={<Helene />} />
 
 
 
-      </Routes>
 
 
 
-    </Router>
+        </Routes>
+
+
+
+      </Router>
+
+    </main>
+
 
   )
 }

@@ -37,13 +37,21 @@
 
 .nav {
       display: flex;
-      gap: 346px;
 
 
 
-      margin-top: 72px;
+
+      margin-top: 12px;
       align-items: center;
+      justify-content: center;
       margin-bottom: 60px;
+
+      z-index: 599;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transform: translateX(0) translateY(50%);
 
 }
 
@@ -59,6 +67,7 @@
       border-left: 1px solid #555151;
       border-top: 1px solid #555151;
       border-bottom: 1px solid #555151;
+      /* height: 70px; */
 }
 
 
@@ -70,6 +79,7 @@
       line-height: 130%;
       font-size: 50px;
       letter-spacing: 0.013em;
+      margin-top: 180px;
 }
 
 .me {
@@ -140,6 +150,7 @@
       gap: 40px;
       justify-content: center;
       align-items: center;
+      /* height: 40px; */
 }
 
 
@@ -162,6 +173,8 @@
       text-transform: uppercase;
 
       color: #FFFFFF;
+      margin-top: 50px;
+      margin-bottom: 48px;
 }
 
 .bigCard {
@@ -470,7 +483,7 @@
       background: #21201F;
       border: 1px solid #555151;
       border-radius: 32px;
-      width: 70%;
+      width: 69%;
       /* height: 636px; */
       transition: border 0.4s ease;
       /* margin-bottom: 32px; */
@@ -526,7 +539,7 @@
 .skills,
 .tools {
       /* width: 532px; */
-      width: 49.6%;
+      width: 48.9%;
       padding-bottom: 20px;
       /* height: 419px; */
 
@@ -701,6 +714,10 @@
       margin-right: 21px;
       margin-left: 21px;
       margin-top: 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
 .mailTitle {
@@ -782,6 +799,11 @@
       /* color: red; */
 }
 
+.cv:hover {
+      background: rgb(238, 232, 232, 0.19);
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
       .footerDivs {
             gap: 0;
@@ -814,6 +836,16 @@
 
       .nav {
             gap: 165px;
+      }
+
+      .bi-envelope-at {
+            width: 250px;
+            height: 250px;
+      }
+
+      .mail {
+            height: auto;
+            padding-bottom: 40px;
       }
 
 

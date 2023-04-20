@@ -34,7 +34,7 @@ function Main() {
             <div className="App" onMouseMove={handleMouseMove}
             // onScroll={handleMouseMove}
             >
-                  <Nav />
+                  <Nav home={true} />
                   <Home />
                   <div
                         className="cursor"

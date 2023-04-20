@@ -24,11 +24,8 @@ export default function Work() {
       return (
             <div className='works' onMouseMove={handleMouseMove}>
                   <Nav work={work} />
-                  <div
-                        className="cursor"
-                        style={{ left: cursorPosition.x, top: cursorPosition.y }}
-                  />
-                  <div className="work">
+
+                  <div className="work work_page">
                         <BigCard
                               title={"qwid"}
                               desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
@@ -101,7 +98,11 @@ export default function Work() {
 
                         />
 
-                  </div>
+                  </div><div
+                        className="cursor"
+                        style={{ left: cursorPosition.x, top: cursorPosition.y }}
+                  />
+
                   <Connect />
                   <Footer />
 

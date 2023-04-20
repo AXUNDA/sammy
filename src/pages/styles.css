@@ -27,6 +27,11 @@
 
       /* gap: 24px; */
       margin-bottom: 24px;
+      /* margin-top: 300px; */
+}
+
+.work_page {
+      margin-top: 300px;
 }
 
 .show {
@@ -118,6 +123,7 @@
       justify-content: space-between;
       padding-bottom: 15px;
       margin-bottom: 32px;
+      margin-top: 300px;
 }
 
 .playlist {
@@ -132,6 +138,8 @@
       display: flex;
       gap: 24px;
       align-items: center;
+      justify-content: center;
+      margin-top: 300px;
 }
 
 .social {
@@ -268,7 +276,7 @@
 
 .qwidImg {
       margin-top: 63px;
-      width: 722.5px;
+      width: 855px;
       height: 100%;
       object-fit: cover;
       border-top-left-radius: 12px;
@@ -436,14 +444,14 @@ li {
       object-fit: cover;
       width: 500px;
       height: 290.4px;
-      border-radius: 12px;
+      /* border-radius: 12px; */
 }
 
 .after {
       object-fit: cover;
       width: 500.79px;
       height: 371px;
-      border-radius: 12px;
+      /* border-radius: 12px; */
 }
 
 .proof {
@@ -471,6 +479,7 @@ li {
       align-items: center;
       justify-content: center;
       gap: 10px;
+      padding-top: 30px;
 }
 
 .analysis {
@@ -633,6 +642,7 @@ li {
       background: #014B94;
       border-radius: 24px;
       overflow: hidden;
+      margin-top: 200px;
 
 }
 
@@ -1013,8 +1023,8 @@ li {
 
       .qwidImg {
 
-            width: 600.5px;
-            height: 650px;
+            width: auto;
+            height: 550px;
 
 
       }

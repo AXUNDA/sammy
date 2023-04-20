@@ -34,7 +34,11 @@ export default function Contact() {
                               </div>
                               <div className="social">
                                     <Behance />
+
                                     <LinkedIn />
+
+
+
                               </div>
                         </div>
                   </div>

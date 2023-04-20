@@ -3,13 +3,22 @@
 }
 
 body {
-  /* margin-left: 86px;
-  margin-right: 86px; */
+
+
   background-color: #040404;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+
+
+
+
+}
+
+main {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 1re, ;
+  padding: 0 1re;
+  width: 100%;
 
 }
 
