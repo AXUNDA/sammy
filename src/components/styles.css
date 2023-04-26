@@ -55,6 +55,7 @@
 
 }
 
+
 .main {
       /* position: relative; */
 
@@ -69,6 +70,15 @@
       border-bottom: 1px solid #555151;
       /* height: 70px; */
 }
+
+.main:hover {
+      border-top: 1.5px solid #FFC371;
+      border-bottom: 1.5px solid #FF5F6D;
+      border-left: 1.5px solid purple;
+      border-right: 1.5px solid #FFC371;
+}
+
+
 
 
 .hi {
@@ -847,6 +857,134 @@
             height: auto;
             padding-bottom: 40px;
       }
+
+
+
+
+      /* CSS */
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+      .hi {
+            font-size: 20px;
+      }
+
+      .me {
+            width: 100%;
+      }
+
+      .links {
+            gap: 10px;
+      }
+
+      .footerDivs {
+            gap: 20px;
+            flex-wrap: wrap;
+      }
+
+      .tags {
+            gap: 15px;
+      }
+
+      .main {
+            width: 350px;
+      }
+
+      .bigCard {
+            width: 100%;
+            margin-bottom: 15px;
+      }
+
+      .smallCard {
+            width: 100%;
+      }
+
+      .cardContent {
+            margin-left: 10px;
+
+      }
+
+      .desc {
+            width: 40%;
+      }
+
+      .smallDesc {
+            font-size: 20px;
+      }
+
+      .nav {
+            top: auto;
+            bottom: 0;
+      }
+
+      .aboutCard {
+            width: 100%;
+      }
+
+      .skills,
+      .tools {
+            width: 100%;
+      }
+
+      .experienceContent {
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+      }
+
+      .years {
+            gap: 15px;
+      }
+
+      .smallCardImg {
+            margin-top: 79px;
+            width: 100%;
+            height: 515px;
+            /* object-fit: cover; */
+            border-top-left-radius: 24px;
+      }
+
+      .mail {
+            width: 100%;
+            height: 456px;
+
+
+      }
+
+      .twitter {
+            width: 48%;
+      }
+
+      .twitterContainer {
+            margin-right: 5px;
+            margin-left: 6px;
+            margin-top: 8px;
+      }
+
+      .mailContainer {
+            margin-right: 21px;
+            margin-left: 21px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .mailTitle {
+            margin-bottom: 5px;
+      }
+
+      .skillsContent {
+            /* margin-top: 56px; */
+            margin-left: 26px;
+      }
+
+      .message {
+            flex-wrap: wrap;
+      }
+
 
 
 

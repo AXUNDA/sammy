@@ -50,18 +50,19 @@ export default function Helene() {
                                     </p>
                                     <div className="qwidNiches">
                                           <p className="qwidNiche">Web App</p>
-                                          <p className="qwidNiche">UI & UX Design</p>
                                           <p className="qwidNiche">Dashboard</p>
 
+                                          <p className="qwidNiche">UI & UX Design</p>
+
                                     </div>
-                                    <p className="qwidWorkTitle">
+                                    <p className="qwidWorkTitle heleneWorkTitle">
                                           Dashboard Revamp
 
                                     </p>
                                     <div className="qwidLast">
-                                          <p className="lastItem">Organization: Helene Business </p>
-                                          <p className="lastItem">Role: UI & UX Designer</p>
-                                          <p className="lastItem"> View Product</p>
+                                          <p className="lastItem heleneLastItem">Organization: Helene Business </p>
+                                          <p className="lastItem heleneLastItem">Role: UI & UX Designer</p>
+                                          <p className="lastItem heleneLastItem"> View Product</p>
 
 
                                     </div>

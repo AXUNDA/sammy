@@ -181,7 +181,7 @@
       margin-top: 33px;
       margin-left: 48px;
       display: flex;
-      align-items: center;
+      /* align-items: center; */
       justify-content: space-between;
       gap: 44px;
       overflow: hidden;
@@ -280,7 +280,8 @@
 }
 
 .qwidImg {
-      margin-top: 63px;
+      margin-top: 60px;
+      /* margin-top: 63px; */
       width: 90%;
       height: 550px;
       object-fit: cover;
@@ -290,7 +291,8 @@
 .qwidImgContainer {
       display: flex;
       justify-content: end;
-      width: 70%;
+      width: 100%;
+
       /* border: 2px solid red; */
 
 }
@@ -1039,6 +1041,14 @@ li {
             flex-direction: column;
       }
 
+      .heleneWorkTitle {
+            margin: 0;
+      }
+
+      .heleneLastItem {
+            margin-top: 1px;
+      }
+
       .sc {
             width: 513px;
       }
@@ -1080,10 +1090,15 @@ li {
 
       .qwidImg {
 
-            width: auto;
-            height: 550px;
+            width: 100%;
+            height: 89%;
 
 
+      }
+
+      .qwidImgContainer {
+            width: 100%;
+            /* height: 70%; */
       }
 
       .qwidHeader {
@@ -1122,5 +1137,267 @@ li {
 
 
       /* CSS */
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+      .work {
+            flex-direction: column;
+      }
+
+      .cursor {
+            display: none;
+      }
+
+      .work_page {
+            margin-top: 50px;
+      }
+
+      .section {
+            flex-direction: column;
+            margin-top: 50px;
+
+      }
+
+      .spotify {
+            width: 100%;
+      }
+
+      .playlist {
+            margin-top: 15px;
+            width: 100%;
+            height: 500px;
+      }
+
+      .skillSection {
+            flex-direction: column;
+            justify-content: auto;
+            gap: 10px;
+
+      }
+
+      .socials {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+      }
+
+      .social {
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 100%;
+      }
+
+      .sc {
+            gap: 10px;
+      }
+
+      .qwidContainer {
+
+            display: flex;
+            flex-direction: column;
+
+      }
+
+      .qwidHeader {
+            /* width: 1100px; */
+            width: 100%;
+            height: auto;
+            background: #194153;
+
+      }
+
+      .qwidImg {
+
+            /* margin-top: 63px; */
+            width: 100%;
+
+      }
+
+      .qwidContainer {
+
+            margin-left: 8px;
+            gap: 5px;
+
+
+      }
+
+      .longCardContainer {
+            /* margin-top: 63px;
+      margin-left: 56px; */
+            margin-left: 8px;
+
+
+      }
+
+      .qwidOverview,
+      .qwidProblem {
+
+            height: auto;
+            padding-bottom: 20px;
+            width: 100%;
+
+            /* shades of darker */
+
+      }
+
+      .qwidOverView_Problem {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+      }
+
+      .discoveryContainer {
+            margin-top: 80px;
+            margin-left: 10px;
+            margin-right: 10px;
+      }
+
+      .overviewContainer {
+            margin-left: 13px;
+            margin-right: 13px;
+      }
+
+      .Frames {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .proof {
+            width: 100%;
+      }
+
+      .before {
+            width: 95%;
+      }
+
+      .after {
+            width: 95%;
+      }
+
+      .sending {
+            width: 100%;
+      }
+
+      .Frames {
+            flex-direction: column;
+      }
+
+      .card_2 {
+            position: relative;
+            right: auto;
+            bottom: auto;
+      }
+
+      .card_1 {
+            position: relative;
+            left: auto;
+
+      }
+
+      .finalImg {
+            width: 100%;
+            height: 679.04px;
+            position: relative;
+            bottom: auto;
+            object-fit: cover;
+      }
+
+      .virtual {
+            height: auto;
+      }
+
+      .pudioContainer {
+            flex-direction: column;
+            gap: 20px;
+            margin-left: 20px;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .pudioImages {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* gap: 50px; */
+      }
+
+      .pudioHeader {
+
+            height: auto;
+
+
+      }
+
+      .pudioHeaderImg1 {
+            width: 241px;
+            height: 522.53px;
+            object-fit: cover;
+            position: relative;
+            top: auto;
+
+      }
+
+      .pudioLongCard {
+            width: 100%;
+            height: auto;
+            background: #21201F;
+            border-radius: 24px;
+            border: 1px solid #555151;
+      }
+
+      .talkContainer {
+            margin-right: 10px;
+            margin-left: 10px;
+      }
+
+      .talkToUsers {
+
+            padding-top: 80px;
+            padding-bottom: 80px;
+            padding-left: 6px;
+            /* background: #21201F;
+            border-radius: 24px;
+            border: 1px solid #555151;
+            margin-top: 56px; */
+      }
+
+      .persona {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+
+
+      }
+
+      .userPersona {
+            /* padding-top: 30px;
+            padding-bottom: 80px;
+            background: #21201F;
+            border-radius: 24px;
+            border: 1px solid #555151; */
+            width: 100%;
+      }
+
+      .pudioHomeImages {
+            display: flex;
+            /* flex-direction: row;
+            align-items: center;
+            justify-content: center; */
+            flex-wrap: wrap;
+      }
+
+      .pudioHeader {
+            margin-top: 50px;
+      }
+
+
+
+
+
 
 }

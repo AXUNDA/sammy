@@ -33,3 +33,10 @@ main {
   /* CSS */
 
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    padding: 0 10px;
+  }
+
+}

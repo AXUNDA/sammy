@@ -22,16 +22,12 @@ export default function About() {
       return (
             <div className='about' onMouseMove={handleMouseMove}>
                   <Nav about={about} />
-
                   <div className="section">
                         <AboutCard />
                         <div className="playlist">
-                              <iframe style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9tzt7g58Xlh?utm_source=generator" width="100%" height="49%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                              <iframe style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/show/3UHIrTqr1Cm3BdxHEciBpi?utm_source=generator" width="100%" height="49%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+                              <iframe className='spotify' style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9tzt7g58Xlh?utm_source=generator" width="100%" height="49%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                              <iframe className='spotify' style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/show/3UHIrTqr1Cm3BdxHEciBpi?utm_source=generator" width="100%" height="49%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
-
-
                   </div>
                   <div className="skillSection">
                         <Skills />
