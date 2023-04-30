@@ -34,6 +34,13 @@ import Footer from "../components/Footer"
 
 export default function Qwid() {
       const [showScroll, setShowScroll] = useState(false);
+      function scroll() {
+            window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+            });
+
+      }
 
       const handleScroll = () => {
             if (window.pageYOffset > 200) {
@@ -42,6 +49,7 @@ export default function Qwid() {
                   setShowScroll(false);
             }
       };
+      // handleScroll()
 
       const scrollToTop = () => {
             window.scrollTo({
@@ -50,8 +58,11 @@ export default function Qwid() {
             });
       };
 
+
       useEffect(() => {
             window.addEventListener('scroll', handleScroll);
+            scroll()
+
             return () => window.removeEventListener('scroll', handleScroll);
       }, []);
       return (

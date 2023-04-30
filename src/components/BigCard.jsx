@@ -10,21 +10,12 @@ export default function BigCard({ title, desc, img, niche1, niche2, niche3 }) {
       const navigate = useNavigate()
 
 
+
       return (
 
-            <div id='bigCard' className='bigCard'
-                  onMouseOver={(e) => {
-                        e.currentTarget.style.background = 'rgb(29, 87, 237,.1)';
+            <div className='bigCard'
 
 
-                  }}
-                  onMouseOut={
-                        (e) => {
-                              e.currentTarget.style.backgroundColor = '#21201F';
-
-
-                        }
-                  }
                   onClick={() => {
                         navigate(`/${title}`)
                   }}

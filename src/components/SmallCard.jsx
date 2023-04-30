@@ -7,19 +7,13 @@ import { useNavigate } from 'react-router-dom'
 
 export default function SmallCard({ title, desc, img, niche1, niche2, niche3 }) {
       const navigate = useNavigate()
+
+
+
+
       return (
             <div className='smallCard'
-                  onMouseOver={(e) => {
-                        e.currentTarget.style.background = 'rgb(238, 99, 33,.1)';
 
-                  }}
-                  onMouseOut={
-                        (e) => {
-                              e.currentTarget.style.backgroundColor = '#21201F';
-
-
-                        }
-                  }
                   onClick={() => {
                         navigate(`/${title}`)
                   }}

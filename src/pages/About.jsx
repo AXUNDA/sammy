@@ -24,9 +24,13 @@ export default function About() {
                   <Nav about={about} />
                   <div className="section">
                         <AboutCard />
-                        <div className="playlist">
-                              <iframe className='spotify' style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9tzt7g58Xlh?utm_source=generator" width="100%" height="49%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                              <iframe className='spotify' style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/show/3UHIrTqr1Cm3BdxHEciBpi?utm_source=generator" width="100%" height="49%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div className=" playSection">
+                              {/* <iframe style={{ borderRadius: '12px' }} className='spotify' src="https://open.spotify.com/embed/playlist/5YE6rNgwRrR3gyivopPBhM" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
+                              {/* <iframe style={{ borderRadius: '12px' }} className='spotify' src="https://open.spotify.com/embed/show/3UHIrTqr1Cm3BdxHEciBpi" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
+                              <iframe src="https://www.youtube.com/embed/MlK6SIjcjE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                              <iframe src="https://www.youtube.com/embed/MlK6SIjcjE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
                         </div>
                   </div>
                   <div className="skillSection">

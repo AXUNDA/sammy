@@ -187,6 +187,17 @@
       margin-bottom: 48px;
 }
 
+.smallCard {
+      height: 880px;
+      /* width: 536px; */
+      width: 40%;
+      background: #21201F;
+      border-radius: 32px;
+      border: 1px solid #555151;
+      overflow: hidden;
+      position: relative;
+}
+
 .bigCard {
       /* width: 760px; */
       width: 58.5%;
@@ -196,12 +207,10 @@
       border: 1px solid #555151;
       overflow: hidden;
       position: relative;
-      cursor: pointer;
+      /* cursor: pointer; */
 }
 
-.bigCard:hover .cardContent {
-      transform: translateX(-18px);
-}
+
 
 .cardContent {
       margin-left: 100px;
@@ -286,29 +295,12 @@
 
 }
 
-.cardImg {
-      /* position: absolute; */
-      width: 746px;
-      height: auto;
-      object-fit: cover;
-      border-radius: 24px;
-      margin-top: 79px;
-}
 
-.smallCard {
-      height: 880px;
-      /* width: 536px; */
-      width: 40%;
-      background: #21201F;
-      border-radius: 32px;
-      border: 1px solid #555151;
-      overflow: hidden;
-      position: relative;
-}
 
-.smallCard:hover .cardContent {
-      transform: translateX(-18px);
-}
+
+
+
+
 
 .smallDesc {
       width: 300px;
@@ -326,6 +318,16 @@
       height: 515px;
       /* object-fit: cover; */
       border-top-left-radius: 24px;
+}
+
+.cardImg {
+      /* position: absolute; */
+      width: 746px;
+      height: auto;
+      object-fit: cover;
+      border-top-left-radius: 24px;
+
+      margin-top: 79px;
 }
 
 .card {
@@ -493,7 +495,7 @@
       background: #21201F;
       border: 1px solid #555151;
       border-radius: 32px;
-      width: 69%;
+      width: 73%;
       /* height: 636px; */
       transition: border 0.4s ease;
       /* margin-bottom: 32px; */
@@ -820,6 +822,12 @@
             justify-content: space-between;
       }
 
+
+
+      .aboutCard {
+            width: 60%;
+      }
+
       .cardContent {
             margin-left: 10px;
       }
@@ -874,9 +882,25 @@
             width: 100%;
       }
 
+      .jobDesc {
+            margin-top: 5px;
+            /* width: 130px; */
+
+            /* width: 50px; */
+      }
+
       .links {
             gap: 10px;
       }
+
+      .cardImg {
+            margin-top: 39px;
+            height: 590px;
+            width: 100%;
+            object-fit: cover;
+      }
+
+
 
       .footerDivs {
             gap: 20px;
@@ -888,7 +912,8 @@
       }
 
       .main {
-            width: 350px;
+            width: 90%;
+            /* width: 350%; */
       }
 
       .bigCard {
@@ -898,15 +923,18 @@
 
       .smallCard {
             width: 100%;
+            margin-bottom: 24px;
+
       }
 
       .cardContent {
-            margin-left: 10px;
+            margin-left: 18px;
+            margin-top: 30px;
 
       }
 
       .desc {
-            width: 40%;
+            width: 90%;
       }
 
       .smallDesc {
@@ -930,18 +958,18 @@
       .experienceContent {
             margin-top: 10px;
             margin-left: 5px;
-            margin-right: 5px;
+            margin-right: 25px;
       }
 
       .years {
-            gap: 15px;
+            gap: 8px;
       }
 
       .smallCardImg {
-            margin-top: 79px;
+            margin-top: 39px;
             width: 100%;
-            height: 515px;
-            /* object-fit: cover; */
+            height: 525px;
+            object-fit: cover;
             border-top-left-radius: 24px;
       }
 
@@ -985,7 +1013,75 @@
             flex-wrap: wrap;
       }
 
+      .home {
+            margin-top: 0;
+      }
 
+      .hi {
+            margin-top: 105px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* CSS */
+
+}
+
+@media (min-width: 1281px) {
+      .bigCard:hover .cardContent {
+            transform: translateX(-18px);
+      }
+
+      .bigCard:hover {
+            background-color: rgb(29, 87, 237, .1);
+      }
+
+      .smallCard:hover {
+            background-color: rgb(238, 99, 33, .1);
+      }
+
+      .smallCard:hover .cardContent {
+            transform: translateX(-18px);
+      }
+
+
+      /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+      .bigCard:hover .cardContent {
+            transform: translateX(-18px);
+      }
+
+      .bigCard:hover {
+            background-color: rgb(29, 87, 237, .1);
+      }
+
+      .smallCard:hover {
+            background-color: rgb(238, 99, 33, .1);
+      }
+
+      .smallCard:hover .cardContent {
+            transform: translateX(-18px);
+      }
 
 
 

@@ -12,7 +12,7 @@ import Project from '../components/Project'
 
 
 export default function Contact() {
-      const [contact, setContact] = useState(true)
+
       const [cursorPosition, setCursorPosition] = useState({ x: -100, y: -100 });
 
       const handleMouseMove = (event) => {
@@ -24,7 +24,7 @@ export default function Contact() {
       };
       return (
             <div className='contact' onMouseMove={handleMouseMove}>
-                  <Nav contact={contact} />
+                  <Nav contact={true} />
                   <div className="socials">
                         <Email />
                         <div className="sc">

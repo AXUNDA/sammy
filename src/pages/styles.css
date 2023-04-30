@@ -19,7 +19,9 @@
             url("../fonts/Satoshi-Regular.otf") format("opentype");
 }
 
-
+.spotify {
+      height: 357px;
+}
 
 .work {
       display: flex;
@@ -29,6 +31,7 @@
       margin-bottom: 24px;
       /* margin-top: 300px; */
 }
+
 
 .work_page {
       margin-top: 300px;
@@ -55,6 +58,12 @@
       /* text 1 */
 
       color: #F1F1F1;
+}
+
+iframe {
+      width: 100%;
+      height: 48%;
+      border-radius: 12px;
 }
 
 .show:hover {
@@ -123,15 +132,30 @@
       justify-content: space-between;
       padding-bottom: 15px;
       margin-bottom: 32px;
-      margin-top: 300px;
+      margin-top: 200px;
+      height: auto;
+      width: 100%;
 }
 
 .playlist {
       display: flex;
       flex-direction: column;
+      /* gap: 15px; */
       justify-content: space-between;
       width: 29.3%;
+      height: 100%;
 
+}
+
+.playSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.spotify {
+      height: 48%;
+      width: 100%;
 }
 
 .socials {
@@ -996,6 +1020,13 @@ li {
 
 }
 
+.hifi2 {
+      width: 243.4px;
+      height: 527.73px;
+      object-fit: cover;
+
+}
+
 .authenticationImages {
       display: flex;
       align-items: center;
@@ -1039,6 +1070,10 @@ li {
 @media (min-width: 768px) and (max-width: 1024px) {
       .socials {
             flex-direction: column;
+      }
+
+      .playlist {
+            height: 100%;
       }
 
       .heleneWorkTitle {
@@ -1143,10 +1178,16 @@ li {
 @media (min-width: 320px) and (max-width: 480px) {
       .work {
             flex-direction: column;
+            margin-bottom: 0;
       }
 
       .cursor {
             display: none;
+      }
+
+      .playlist {
+            flex-direction: column-reverse;
+            height: 100%;
       }
 
       .work_page {
@@ -1160,7 +1201,10 @@ li {
       }
 
       .spotify {
-            width: 100%;
+            height: 49%;
+
+            /* width: 100%; */
+
       }
 
       .playlist {
@@ -1198,6 +1242,8 @@ li {
 
             display: flex;
             flex-direction: column;
+            /* border: 1px solid red; */
+            padding-left: 16px;
 
       }
 
@@ -1227,19 +1273,27 @@ li {
       .longCardContainer {
             /* margin-top: 63px;
       margin-left: 56px; */
-            margin-left: 8px;
+            margin-left: 16px;
 
 
       }
 
-      .qwidOverview,
-      .qwidProblem {
 
+      .qwidProblem {
             height: auto;
             padding-bottom: 20px;
             width: 100%;
 
+
+
             /* shades of darker */
+
+      }
+
+      .qwidOverview {
+            height: auto;
+            padding-bottom: 30px;
+            width: 100%;
 
       }
 
@@ -1251,12 +1305,12 @@ li {
 
       .discoveryContainer {
             margin-top: 80px;
-            margin-left: 10px;
+            margin-left: 16px;
             margin-right: 10px;
       }
 
       .overviewContainer {
-            margin-left: 13px;
+            margin-left: 16px;
             margin-right: 13px;
       }
 
@@ -1322,6 +1376,7 @@ li {
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            height: 300px;
             /* gap: 50px; */
       }
 
@@ -1333,11 +1388,11 @@ li {
       }
 
       .pudioHeaderImg1 {
-            width: 241px;
-            height: 522.53px;
-            object-fit: cover;
-            position: relative;
+            width: 0px;
+            height: 0px;
+
             top: auto;
+            visibility: hidden;
 
       }
 
@@ -1394,6 +1449,108 @@ li {
       .pudioHeader {
             margin-top: 50px;
       }
+
+      .analysis {
+            width: 100%;
+            height: 230px;
+            object-fit: contain;
+      }
+
+      .before {
+            object-fit: contain;
+            height: auto;
+
+      }
+
+      .after {
+            object-fit: contain;
+            height: auto;
+      }
+
+      .sending {
+            object-fit: contain;
+            height: auto;
+      }
+
+      .finalImg {
+            object-fit: contain;
+            height: auto;
+      }
+
+      .Frames {
+            gap: 0;
+      }
+
+      .card_2 {
+            margin-top: 0;
+      }
+
+      .qwidImg {
+            object-fit: contain;
+            margin-top: 0;
+            height: auto;
+      }
+
+      .qwidImgContainer {
+            height: auto;
+      }
+
+      .lastItem {
+            margin-top: 10px;
+            margin-bottom: 10px;
+      }
+
+      .qwidLast {
+            margin-bottom: 8px;
+      }
+
+      .pudioContainer {
+            gap: 0;
+      }
+
+
+
+      .pudioHeaderImg2 {
+            position: relative;
+
+            ;
+            top: 60px;
+
+
+
+      }
+
+      iframe {
+            height: 350px;
+      }
+
+      .playSection {
+            gap: 10px;
+            margin-top: 10px;
+      }
+
+      .userFlowImg {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+      }
+
+      .hifiImages {
+            gap: 0;
+      }
+
+      .hifiImg {
+            height: 380px;
+      }
+
+      .hifi2 {
+            height: 420px;
+      }
+
+      .qwidSpace {
+            margin-top: 50px;
+      }
+
 
 
 

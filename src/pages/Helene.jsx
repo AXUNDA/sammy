@@ -36,6 +36,14 @@ import Footer from '../components/Footer'
 
 
 export default function Helene() {
+      function scroll() {
+            window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+            });
+
+      }
+      scroll()
       return (
             <div className='helene'>
                   <Nav work={true} />
@@ -145,10 +153,10 @@ export default function Helene() {
 
                         </p>
                         <div className="authenticationImages">
-                              <img src={onboarding1} alt="" className="hifiImg" />
-                              <img src={onboarding2} alt="" className="hifiImg" />
-                              <img src={onboarding3} alt="" className="hifiImg" />
-                              <img src={onboarding4} alt="" className="hifiImg" />
+                              <img src={onboarding1} alt="" className="hifi2" />
+                              <img src={onboarding2} alt="" className="hifi2" />
+                              <img src={onboarding3} alt="" className="hifi2" />
+                              <img src={onboarding4} alt="" className="hifi2" />
 
 
                         </div>
@@ -160,10 +168,10 @@ export default function Helene() {
 
                         </p>
                         <div className="authenticationImages">
-                              <img src={home1} alt="" className="hifiImg" />
-                              <img src={home2} alt="" className="hifiImg" />
-                              <img src={home3} alt="" className="hifiImg" />
-                              <img src={home4} alt="" className="hifiImg" />
+                              <img src={home1} alt="" className="hifi2" />
+                              <img src={home2} alt="" className="hifi2" />
+                              <img src={home3} alt="" className="hifi2" />
+                              <img src={home4} alt="" className="hifi2" />
 
 
                         </div>
@@ -174,10 +182,10 @@ export default function Helene() {
 
                         </p>
                         <div className="authenticationImages">
-                              <img src={invoice1} alt="" className="hifiImg" />
-                              <img src={invoice2} alt="" className="hifiImg" />
-                              <img src={invoice3} alt="" className="hifiImg" />
-                              <img src={invoice4} alt="" className="hifiImg" />
+                              <img src={invoice1} alt="" className="hifi2" />
+                              <img src={invoice2} alt="" className="hifi2" />
+                              <img src={invoice3} alt="" className="hifi2" />
+                              <img src={invoice4} alt="" className="hifi2" />
 
 
                         </div>
@@ -189,9 +197,9 @@ export default function Helene() {
 
                         </p>
                         <div className="authenticationImages">
-                              <img src={template1} alt="" className="hifiImg" />
-                              <img src={template2} alt="" className="hifiImg" />
-                              <img src={template3} alt="" className="hifiImg" />
+                              <img src={template1} alt="" className="hifi2" />
+                              <img src={template2} alt="" className="hifi2" />
+                              <img src={template3} alt="" className="hifi2" />
 
 
 

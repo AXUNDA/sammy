@@ -54,6 +54,14 @@ import Footer from '../components/Footer'
 
 
 export default function Pudio() {
+      function scroll() {
+            window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+            });
+
+      }
+      scroll()
       return (
             <div className='pudio'>
                   <Nav work={true} />
@@ -582,9 +590,9 @@ export default function Pudio() {
 
                         </p>
                         <div className="hifiImages">
-                              <img src={hifiImg1} alt="" className="hifiImg" />
-                              <img src={hifiImg2} alt="" className="hifiImg" />
-                              <img src={hifiImg3} alt="" className="hifiImg" />
+                              <img src={hifiImg1} alt="" className="hifi2" />
+                              <img src={hifiImg2} alt="" className="hifi2" />
+                              <img src={hifiImg3} alt="" className="hifi2" />
 
                         </div>
                   </div>
