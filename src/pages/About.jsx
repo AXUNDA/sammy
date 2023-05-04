@@ -32,8 +32,8 @@ export default function About() {
                         <div className=" playSection">
                               {/* <iframe style={{ borderRadius: '12px' }} className='spotify' src="https://open.spotify.com/embed/playlist/5YE6rNgwRrR3gyivopPBhM" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
                               {/* <iframe style={{ borderRadius: '12px' }} className='spotify' src="https://open.spotify.com/embed/show/3UHIrTqr1Cm3BdxHEciBpi" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
-                              <iframe src="https://www.youtube.com/embed/MlK6SIjcjE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                              <iframe src="https://www.youtube.com/embed/MlK6SIjcjE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                              <iframe src="https://open.spotify.com/embed/playlist/5YE6rNgwRrR3gyivopPBhM?utm_source=generator" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                              <iframe src="https://open.spotify.com/embed/show/3UHIrTqr1Cm3BdxHEciBpi?utm_source=generator" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
                         </div>
