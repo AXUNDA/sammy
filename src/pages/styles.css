@@ -19,6 +19,93 @@
             url("../fonts/Satoshi-Regular.otf") format("opentype");
 }
 
+.imageSlider {
+      width: 1312px;
+      height: 900px;
+      background: #18181B;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+}
+
+@keyframes slide {
+      0% {
+            transform: translateX(0%);
+      }
+
+
+      100% {
+            transform: translateX(-66.666%);
+      }
+}
+
+@keyframes slide-left {
+      0% {
+            transform: translateX(-33.333%);
+      }
+
+      100% {
+            transform: translateX(0%);
+      }
+}
+
+.slider {
+      display: flex;
+      gap: 24px;
+      position: relative;
+      width: 300%;
+      animation: slide 15s infinite linear;
+}
+
+.sliderLeft {
+      display: flex;
+      gap: 24px;
+      position: relative;
+      width: 300%;
+      animation: slide-left 8s infinite linear;
+
+}
+
+
+
+
+.bigSlide {
+      width: 424px;
+      height: 300px;
+      object-fit: cover;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+
+}
+
+.middleBig {
+      border-top-right-radius: 24px;
+      border-top-left-radius: 24px;
+
+
+
+}
+
+.middleSmall {
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+
+
+}
+
+.smallSlide {
+      width: 224px;
+      height: 300px;
+      object-fit: cover;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+}
+
+
 .spotify {
       height: 357px;
 }
@@ -1549,6 +1636,21 @@ li {
 
       .qwidSpace {
             margin-top: 50px;
+      }
+
+      .slider {
+
+            animation: slide 5s infinite linear;
+      }
+
+      .sliderLeft {
+
+            animation: slide-left 3s infinite linear;
+
+      }
+
+      .engagementBox {
+            flex-direction: column;
       }
 
 

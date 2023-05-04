@@ -7,6 +7,11 @@ import Tools from '../components/Tools'
 import Experience from '../components/Experience'
 import Touch from '../components/Touch'
 import Footer from '../components/Footer'
+import Engagements from '../components/Engagements'
+import event3 from "../assets/event3.jpg"
+import event4 from "../assets/event4.jpg"
+import event1 from "../assets/event1.png"
+import event2 from "../assets/event2.jpg"
 
 export default function About() {
       const [about, setAbout] = useState(true)
@@ -44,6 +49,17 @@ export default function About() {
                         style={{ left: cursorPosition.x, top: cursorPosition.y }}
                   />
                   <Experience />
+                  <p className="other">
+                        My Other Engagements
+                  </p>
+                  <div className="engagementBox">
+                        <Engagements text={"Public Speaking [Panelist Google Devfest 22]"} src={event3} />
+                        <Engagements text={"Mentorship [Design mentor at this tech thing]"} src={event4} />
+                  </div>
+                  <div className="engagementBox">
+                        <Engagements text={"Open Source contributions"} src={event1} />
+                        <Engagements text={"Design Community (co- founder)"} src={event2} />
+                  </div>
                   <Touch />
                   <Footer />
 

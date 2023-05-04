@@ -4,10 +4,7 @@ import Home from "../components/Home"
 import Nav from "../components/Nav"
 import SmallCard from "../components/SmallCard"
 import "./styles.css"
-import event3 from "../assets/event3.jpg"
-import event4 from "../assets/event4.jpg"
-import event1 from "../assets/event1.png"
-import event2 from "../assets/event2.jpg"
+
 import "../fonts/MartianGrotesk-sWdRg.otf"
 import Connect from "../components/Connect"
 import Footer from "../components/Footer"
@@ -16,6 +13,26 @@ import pudio from "../assets/pudio.png"
 import helene from "../assets/helene.png"
 import beacamp from "../assets/beacamp.png"
 import { useState } from "react"
+import movingImage1 from "../assets/movingImage1.png"
+import movingImage2 from "../assets/movingImage2.png"
+import movingImage3 from "../assets/movingImage3.png"
+import movingImage4 from "../assets/movingImage4.png"
+import movingImage5 from "../assets/movingImage5.png"
+import movingImage6 from "../assets/movingImage6.png"
+import movingImage7 from "../assets/movingImage7.png"
+import movingImage8 from "../assets/movingImage8.png"
+import movingImage9 from "../assets/movingImage9.jpg"
+import movingImage10 from "../assets/movingImage10.png"
+
+
+
+
+
+
+
+
+
+
 
 function Main() {
 
@@ -110,16 +127,60 @@ function Main() {
                         </p>
                   </a>
                   <hr />
-                  <p className="other">
-                        My Other Engagements
-                  </p>
-                  <div className="engagementBox">
-                        <Engagements text={"Public Speaking [Panelist Google Devfest 22]"} src={event3} />
-                        <Engagements text={"Mentorship [Design mentor at this tech thing]"} src={event4} />
-                  </div>
-                  <div className="engagementBox">
-                        <Engagements text={"Open Source contributions"} src={event1} />
-                        <Engagements text={"Design Community (co- founder)"} src={event2} />
+
+                  <div className="imageSlider">
+                        <div className="slider">
+
+                              <img src={movingImage10} alt="" className="bigSlide" />
+                              <img src={movingImage9} alt="" className="bigSlide" />
+                              <img src={movingImage8} alt="" className="smallSlide" />
+                              <img src={movingImage7} alt="" className="bigSlide" />
+                              <img src={movingImage6} alt="" className="bigSlide" />
+                              <img src={movingImage5} alt="" className="smallSlide" />
+                              <img src={movingImage4} alt="" className="bigSlide" />
+                              <img src={movingImage3} alt="" className="bigSlide" />
+                              <img src={movingImage2} alt="" className="smallSlide" />
+
+
+                        </div>
+                        <div className="sliderLeft">
+                              <img src={movingImage1} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage2} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage3} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage4} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage5} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage6} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage7} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage8} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage9} alt="" className="smallSlide middleSmall" />
+
+                        </div>
+                        <div className="slider">
+                              <img src={movingImage10} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage9} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage9} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage8} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage7} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage6} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage5} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage4} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage3} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage2} alt="" className="smallSlide middleSmall" />
+
+
+                              {/* <img src={movingImage10} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage9} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage8} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage7} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage6} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage5} alt="" className="smallSlide middleSmall" />
+                              <img src={movingImage2} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage2} alt="" className="bigSlide middleBig" />
+                              <img src={movingImage3} alt="" className="smallSlide middleSmall" /> */}
+
+
+                        </div>
+
                   </div>
                   <Connect />
                   <Footer />
