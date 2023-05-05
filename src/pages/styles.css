@@ -19,6 +19,39 @@
             url("../fonts/Satoshi-Regular.otf") format("opentype");
 }
 
+/* @keyframes fadeIn {
+      from {
+            opacity: 0;
+      }
+
+      to {
+            opacity: 1;
+      }
+} */
+@keyframes fadeTop {
+      from {
+            opacity: 0;
+            transform: translateY(100%);
+      }
+
+      to {
+            opacity: 1;
+            transform: translateY(0);
+      }
+}
+
+@keyframes fadeIn {
+      from {
+            opacity: 0;
+            transform: translateY(-100%);
+      }
+
+      to {
+            opacity: 1;
+            transform: translateY(0);
+      }
+}
+
 .imageSlider {
       width: 1312px;
       height: 900px;
@@ -66,7 +99,7 @@
       gap: 24px;
       position: relative;
       width: 300%;
-      animation: slide-left 8s infinite linear;
+      animation: slide-left 10s infinite linear;
 
 }
 
@@ -117,11 +150,15 @@
       /* gap: 24px; */
       margin-bottom: 24px;
       /* margin-top: 300px; */
+      animation-name: fadeIn;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
 }
 
 
 .work_page {
-      margin-top: 300px;
+      margin-top: 200px;
 }
 
 .show {
@@ -222,6 +259,10 @@ iframe {
       margin-top: 200px;
       height: auto;
       width: 100%;
+      animation-name: fadeIn;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
 }
 
 .playlist {
@@ -281,6 +322,11 @@ iframe {
       background: #194153;
       border-radius: 24px;
       overflow: hidden;
+      opacity: 0;
+      animation-name: fadeTop;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
 }
 
 .qwidSpace {
@@ -769,6 +815,11 @@ li {
       border-radius: 24px;
       overflow: hidden;
       margin-top: 200px;
+      opacity: 0;
+      animation-name: fadeIn;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
 
 }
 
@@ -1642,12 +1693,12 @@ li {
 
       .slider {
 
-            animation: slide 5s infinite linear;
+            animation: slide 12s infinite linear;
       }
 
       .sliderLeft {
 
-            animation: slide-left 3s infinite linear;
+            animation: slide-left 5s infinite linear;
 
       }
 
