@@ -5,7 +5,7 @@ import "./styles.css"
 
 export default function Email() {
       return (
-            <a href="mailto:name@email.com">
+            <a href="mailto:saromenechris@gmail.com">
                   <div className='mail'>
                         <div className="mailContainer">
                               <p className="mailTitle">

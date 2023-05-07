@@ -2,6 +2,8 @@ import React from 'react'
 import "./styles.css"
 import Nav from '../components/Nav'
 import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+
 
 import "../fonts/Satoshi-Regular.otf"
 import "../fonts/MartianGrotesk-WdxBd.otf"
@@ -56,6 +58,7 @@ import { Responsive } from '../components/Responsive'
 
 
 export default function Pudio() {
+      const navigate = useNavigate()
       const [isLoading, setIsLoading] = useState(true);
       function scroll() {
             window.scrollTo({
@@ -745,8 +748,8 @@ export default function Pudio() {
                                     </div>
                               </div>
                               <div className="pagination">
-                                    <p className="paginate">Previous project</p>
-                                    <p className="paginate">Next project</p>
+                                    <p className="paginate" onClick={() => navigate("/qwid")}>Previous project</p>
+                                    <p className="paginate" onClick={() => navigate("/helene")}>Next project</p>
 
 
                               </div>

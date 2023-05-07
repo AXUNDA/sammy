@@ -73,7 +73,7 @@ function Main() {
                                     className="cursor"
                                     style={{ left: cursorPosition.x, top: cursorPosition.y }}
                               />
-                              <div className="work">
+                              <div className="work" id="work">
 
                                     <BigCard
                                           title={"qwid"}

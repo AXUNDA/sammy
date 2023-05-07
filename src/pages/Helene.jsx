@@ -1,4 +1,4 @@
-import Reac, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import "./styles.css"
 import Nav from '../components/Nav'
 
@@ -24,6 +24,8 @@ import template2 from "../assets/template2.png"
 import template3 from "../assets/template3.png"
 import Footer from '../components/Footer'
 import Image from '../components/Image'
+import { useNavigate } from 'react-router-dom'
+
 
 
 
@@ -38,6 +40,7 @@ import Image from '../components/Image'
 
 export default function Helene() {
       const [isLoading, setIsLoading] = useState(true);
+      const navigate = useNavigate()
 
       function scroll() {
             window.scrollTo({
@@ -222,8 +225,8 @@ export default function Helene() {
                                     </div>
                               </div>
                               <div className="pagination">
-                                    <p className="paginate">Previous project</p>
-                                    <p className="paginate">Next project</p>
+                                    <p className="paginate" onClick={() => navigate("/qwid")}>Previous project</p>
+                                    <p className="paginate" onClick={() => navigate("/pudio")}>Next project</p>
 
 
                               </div>

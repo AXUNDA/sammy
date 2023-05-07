@@ -29,11 +29,15 @@ import settings2 from "../assets/settings2.png"
 import settings3 from "../assets/settings3.png"
 import Footer from "../components/Footer"
 import Wood from '../components/Wood'
+import { useNavigate } from 'react-router-dom'
+
+
 
 
 
 
 export default function Qwid() {
+      const navigate = useNavigate()
       const [showScroll, setShowScroll] = useState(false);
       const [isLoading, setIsLoading] = useState(true);
 
@@ -567,8 +571,8 @@ export default function Qwid() {
                                     </div>
                               </div>
                               <div className="pagination">
-                                    <p className="paginate">Previous project</p>
-                                    <p className="paginate">Next project</p>
+                                    <p className="paginate" onClick={() => navigate("/pudio")}>Previous project</p>
+                                    <p className="paginate" onClick={() => navigate("/helene")}>Next project</p>
 
 
                               </div>

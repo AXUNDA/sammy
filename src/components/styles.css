@@ -283,6 +283,7 @@
       border: 1px solid #555151;
       overflow: hidden;
       position: relative;
+      cursor: pointer;
 }
 
 .bigCard {
@@ -294,7 +295,7 @@
       border: 1px solid #555151;
       overflow: hidden;
       position: relative;
-      /* cursor: pointer; */
+      cursor: pointer;
 }
 
 
@@ -909,6 +910,10 @@
             justify-content: space-between;
       }
 
+      .twitter {
+            width: 100%;
+      }
+
 
 
       .aboutCard {
@@ -1072,7 +1077,7 @@
       }
 
       .twitter {
-            width: 48%;
+            width: 100%;
       }
 
       .twitterContainer {
@@ -1114,19 +1119,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-      /* CSS */
 
 }
 
@@ -1176,6 +1168,6 @@
 
 
 
-      /* CSS */
+
 
 }
