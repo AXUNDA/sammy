@@ -52,6 +52,31 @@
       }
 }
 
+.w-70Container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.w-70 {
+      width: 70%;
+
+
+}
+
+.rhendaImagesContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+}
+
+.rhendaColumnImage {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
 .imageSlider {
       width: 1312px;
       height: 900px;
@@ -882,6 +907,7 @@ li {
       object-fit: cover;
 }
 
+
 .pudioImages {
       display: flex;
       gap: 24px;
@@ -1160,6 +1186,15 @@ li {
 
 }
 
+.rhendaLongImage {
+      width: 242.4px;
+      height: 1050px;
+      object-fit: cover;
+
+
+
+}
+
 .hifi2 {
       width: 243.4px;
       height: 527.73px;
@@ -1212,6 +1247,12 @@ li {
             flex-direction: column;
       }
 
+      .w-70 {
+            width: 90%;
+
+
+      }
+
 
 
       .playlist {
@@ -1242,6 +1283,10 @@ li {
 
       .pudioHeaderImg1 {
             width: 250px;
+      }
+
+      .rhendaLongImage {
+            display: none;
       }
 
       .qwidOverview,
@@ -1662,8 +1707,8 @@ li {
       .pudioHeaderImg2 {
             position: relative;
 
-            ;
-            top: 60px;
+
+            top: 70px;
 
 
 
@@ -1692,6 +1737,13 @@ li {
 
       .hifi2 {
             height: 420px;
+            object-fit: cover;
+      }
+
+      .hifi3 {
+            object-fit: contain;
+
+
       }
 
       .qwidSpace {
@@ -1713,6 +1765,24 @@ li {
             flex-direction: column;
       }
 
+      .rhendaImagesContainer {
+            flex-direction: column;
+      }
+
+      .rhendaColumnImage {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .rhendaLongImage {
+            display: none;
+      }
+
+      .w-70 {
+            width: 95%;
+
+
+      }
 
 
 

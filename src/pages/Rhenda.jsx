@@ -1,6 +1,63 @@
 import React from 'react'
 import headerImage from "../assets/rhendaHeaderImage.png"
 import Nav from '../components/Nav'
+import onboarding1 from "../assets/rhendaOnboarding1.png"
+import onboarding2 from "../assets/rhendaOnboarding2.png"
+import onboarding3 from "../assets/rhendaOnboarding3.png"
+import onboarding4 from "../assets/rhendaOnboarding4.png"
+import onboarding5 from "../assets/rhendaOnboarding5.png"
+import onboarding6 from "../assets/rhendaOnboarding6.png"
+import onboarding7 from "../assets/rhendaOnboarding7.png"
+import longImage from '../assets/rhendaLongImage.png'
+import rhendaMap1 from "../assets/rhendaMap1.png"
+import rhendaMap2 from "../assets/rhendaMap2.png"
+import rhendaMap3 from "../assets/rhendaMap3.png"
+import rhendaMap4 from "../assets/rhendaMap4.png"
+import rhendaMap5 from "../assets/rhendaMap5.png"
+import artisan1 from "../assets/userAndArtisan1.png"
+import artisan2 from "../assets/userAndArtisan2.png"
+import artisan3 from "../assets/userAndArtisan3.png"
+import artisan4 from "../assets/userAndArtisan4.png"
+import artisan5 from "../assets/userAndArtisan5.png"
+import artisan6 from "../assets/userAndArtisan6.png"
+import rhendaPost1 from '../assets/rhendaPost1.png'
+import rhendaPost2 from '../assets/rhendaPost2.png'
+import rhendaPost3 from '../assets/rhendaPost3.png'
+import rhendaPost4 from '../assets/rhendaPost4.png'
+import rhendaPost5 from '../assets/rhendaPost5.png'
+import rhendaPost6 from '../assets/rhendaPost6.png'
+import explore1 from '../assets/explore1.png'
+import explore2 from '../assets/explore2.png'
+import explore3 from '../assets/explore3.png'
+import explore4 from '../assets/explore4.png'
+import explore5 from '../assets/explore5.png'
+import explore6 from '../assets/explore6.png'
+import Footer from '../components/Footer'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const Rhenda = () => {
       return (
@@ -175,6 +232,151 @@ const Rhenda = () => {
 
 
                   </div>
+                  <div className="hifiMockups">
+                        <p className="hifiHeader">
+                              Onboarding/Sign up
+
+                        </p>
+                        <div className="authenticationImages" style={{ gap: "12px", marginBottom: "10px" }}>
+                              <img src={onboarding1} alt="" className="hifi2 hifi3" />
+                              <img src={onboarding2} alt="" className="hifi2 hifi3" />
+                              <img src={onboarding3} alt="" className="hifi2 hifi3" />
+
+
+
+                        </div>
+                        <div className="authenticationImages" style={{ gap: "12px" }}>
+                              <img src={onboarding4} alt="" className="hifi2 hifi3" />
+                              <img src={onboarding5} alt="" className="hifi2 hifi3" />
+                              <img src={onboarding6} alt="" className="hifi2 hifi3" />
+                              <img src={onboarding7} alt="" className="hifi2 hifi3" />
+
+
+                        </div>
+                  </div>
+                  <div className="hifiMockups">
+                        <p className="hifiHeader">
+                              Home screen
+
+                        </p>
+                        <div className="rhendaImagesContainer">
+                              <img src={longImage} alt="" className="rhendaLongImage" />
+                              <div className="rhendaColumnImage">
+                                    <img src={onboarding4} alt="" className="hifi2 hifi3" />
+                                    <img src={onboarding4} alt="" className="hifi2 hifi3" />
+
+
+                              </div>
+                              <div className="rhendaColumnImage">
+                                    <img src={onboarding4} alt="" className="hifi2 hifi3" />
+                                    <img src={onboarding4} alt="" className="hifi2 hifi3" />
+
+
+                              </div>
+
+                        </div>
+
+                  </div>
+                  <div className="hifiMockups">
+                        <p className="hifiHeader">
+                              Maps
+
+                        </p>
+                        <div className="authenticationImages" style={{ gap: "12px", marginBottom: "10px" }}>
+                              <img src={rhendaMap1} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaMap2} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaMap3} alt="" className="hifi2 hifi3" />
+
+
+
+                        </div>
+                        <div className="authenticationImages" style={{ gap: "12px" }}>
+                              <img src={rhendaMap4} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaMap5} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaMap5} alt="" className="hifi2 hifi3" />
+
+
+
+                        </div>
+                        <div className='w-70Container'>
+                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                                    The map feature is a valuable feature that enables users to easily locate and access various skilled professionals in their area. By utilizing the map feature, users can view a visual representation of the nearby service providers, allowing them to identify the most convenient options.Through the map feature, users can refine their search by specifying their desired location, ensuring that they find artisans who are within a certain proximity. This feature helps users save time and effort by connecting them with service providers who are geographically accessible.
+                              </p>
+
+                        </div>
+
+                  </div>
+                  <div className="hifiMockups">
+                        <p className="hifiHeader">
+                              User & Artisan Profile
+                        </p>
+                        <div className="authenticationImages" style={{ gap: "12px", marginBottom: "10px" }}>
+                              <img src={artisan1} alt="" className="hifi2 hifi3" />
+                              <img src={artisan2} alt="" className="hifi2 hifi3" />
+                              <img src={artisan3} alt="" className="hifi2 hifi3" />
+                        </div>
+                        <div className="authenticationImages" style={{ gap: "12px" }}>
+                              <img src={artisan4} alt="" className="hifi2 hifi3" />
+                              <img src={artisan5} alt="" className="hifi2 hifi3" />
+                              <img src={artisan6} alt="" className="hifi2 hifi3" />
+                        </div>
+                        <div className='w-70Container'>
+                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                                    The messaging feature in an artisan service provider app allows users to communicate directly with service providers in a convenient and efficient manner. It enables users to send and receive messages, inquiries, and requests related to the services they require. This feature fosters seamless and real-time communication between users and service providers, allowing for quick clarification of details, discussing project requirements, negotiating prices, and scheduling appointments. Users can easily engage in a dialogue with service providers, ensuring clear and effective communication throughout the service procurement process
+                              </p>
+                        </div>
+
+                  </div>
+                  <div className="hifiMockups">
+                        <p className="hifiHeader">
+                              Make a Post
+                        </p>
+                        <div className="authenticationImages" style={{ gap: "12px", marginBottom: "10px" }}>
+                              <img src={rhendaPost1} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaPost2} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaPost3} alt="" className="hifi2 hifi3" />
+                        </div>
+                        <div className="authenticationImages" style={{ gap: "12px" }}>
+                              <img src={rhendaPost4} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaPost5} alt="" className="hifi2 hifi3" />
+                              <img src={rhendaPost6} alt="" className="hifi2 hifi3" />
+                        </div>
+                        <div className='w-70Container'>
+                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                                    The home screen also has a search feature strategically placed so as not to be missed. The search feature offers an alternative to users as it may be quicker if they are looking for a specific vendor/artisan. On the home screen there’s a feeds sections where users can see post from both artisans and users, we wanted at a social feeling to the platform to keep users engaged.
+                              </p>
+                        </div>
+
+                  </div>
+                  <div className="hifiMockups">
+                        <p className="hifiHeader">
+                              Explore Page
+                        </p>
+                        <div className="authenticationImages" style={{ gap: "12px", marginBottom: "10px" }}>
+                              <img src={explore1} alt="" className="hifi2 hifi3" />
+                              <img src={explore2} alt="" className="hifi2 hifi3" />
+                              <img src={explore3} alt="" className="hifi2 hifi3" />
+                        </div>
+                        <div className="authenticationImages" style={{ gap: "12px" }}>
+                              <img src={explore4} alt="" className="hifi2 hifi3" />
+                              <img src={explore5} alt="" className="hifi2 hifi3" />
+                              <img src={explore6} alt="" className="hifi2 hifi3" />
+                        </div>
+                        <div className='w-70Container'>
+                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                                    The home screen also has a search feature strategically placed so as not to be missed. The search feature offers an alternative to users as it may be quicker if they are looking for a specific vendor/artisan. On the home screen there’s a feeds sections where users can see post from both artisans and users, we wanted at a social feeling to the platform to keep users engaged.
+                              </p>
+                        </div>
+
+                  </div>
+                  <div className="pagination">
+                        <p className="paginate" onClick={() => navigate("/pudio")}>Previous project</p>
+                        <p className="paginate" onClick={() => navigate("/helene")}>Next project</p>
+
+
+                  </div>
+                  <Footer />
+
 
             </div>
       )
