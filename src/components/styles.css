@@ -164,10 +164,11 @@
       line-height: 130%;
       font-size: 50px;
       letter-spacing: 0.013em;
-      margin-top: 180px;
+      margin-top: 220px;
       animation-name: blurIn;
       animation-duration: 1s;
       animation-timing-function: ease-in-out;
+
       /* animation-name: blurIn */
 }
 
@@ -183,6 +184,7 @@
       animation-name: leFlyInBottom;
       animation-duration: 1s;
       animation-timing-function: ease-in-out;
+      margin-bottom: 50px;
       /* animation-name: blurIn */
 }
 
@@ -196,6 +198,7 @@
       color: #F1F1F1;
       font-family: 'satoshi-regular';
       transition: transform 1.9s ease-in-out;
+      margin-bottom: 35px;
 
       font-style: normal;
       font-weight: 500;

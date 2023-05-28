@@ -13,19 +13,19 @@ export default function Footer() {
 
                         </p>
                         <div className="links">
-                              <a href="" className="link">
+                              <a href="https://www.linkedin.com/in/samuel-christiann" className="link">
                                     LINKEDIN
 
                               </a>
-                              <a href="" className="link">
+                              <a href="https://twitter.com/SaromeneUX?t=bW8Y-qiy-mHqnfKe-2swjQ&s=08" className="link">
                                     TWITTER
 
                               </a>
-                              <a href="" className="link">
+                              <a href="https://dribbble.com/Saromeneux" className="link">
                                     DRIBBLE
 
                               </a>
-                              <a href="" className="link">
+                              <a href="https://www.behance.net/saromeneux" className="link">
                                     BEHANCE
 
                               </a>

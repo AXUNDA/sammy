@@ -9,6 +9,7 @@ import Pudio from "./pages/Pudio"
 import Helene from "./pages/Helene"
 import { Responsive } from "./components/Responsive"
 import Bulb from "./components/Bulb"
+import Rhenda from "./pages/Rhenda"
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
           <Route path="/qwid" element={<Qwid />} />
           <Route path="/pudio" element={<Pudio />} />
           <Route path="/helene" element={<Helene />} />
+          <Route path="/rhenda" element={<Rhenda />} />
+
           <Route path="/animate" element={<Responsive />} />
           <Route path="*" element={<Bulb />} />
 

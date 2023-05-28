@@ -96,6 +96,8 @@ export default function Qwid() {
                                                       <p className="qwidNiche">web App</p>
                                                       <p className="qwidNiche">Fin-tech</p>
                                                       <p className="qwidNiche">Product</p>
+                                                      <p className="qwidNiche">Live Product</p>
+
 
                                                 </div>
                                                 <p className="qwidWorkTitle">
@@ -105,7 +107,7 @@ export default function Qwid() {
                                                 <div className="qwidLast">
                                                       <p className="lastItem">Organization: Blinqpay </p>
                                                       <p className="lastItem">Role: Product Designer</p>
-                                                      <p className="lastItem"> View Product</p>
+                                                      <p className="lastItem" style={{ textDecoration: "underline", cursor: "pointer" }} onClick={() => window.location.href = "https://qwid.io/auth/signup"}> View Product</p>
 
 
                                                 </div>

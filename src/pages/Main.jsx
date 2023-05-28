@@ -143,6 +143,7 @@ function Main() {
                                     </p>
                               </a>
                               <hr />
+                              <p className="featured" style={{ marginTop: "110px", marginBottom: "70px" }}>Recent Work</p>
 
                               <div className="imageSlider">
                                     <div className="slider">

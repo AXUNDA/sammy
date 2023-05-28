@@ -76,10 +76,12 @@ export default function Helene() {
                                                       September 2021- 4 weeks
                                                 </p>
                                                 <div className="qwidNiches">
-                                                      <p className="qwidNiche">Web App</p>
-                                                      <p className="qwidNiche">Dashboard</p>
+                                                      <p className="qwidNiche">Mobile App</p>
+                                                      <p className="qwidNiche">Accounting</p>
 
-                                                      <p className="qwidNiche">UI & UX Design</p>
+                                                      <p className="qwidNiche">Product Design</p>
+                                                      <p className="qwidNiche">Live Product</p>
+
 
                                                 </div>
                                                 <p className="qwidWorkTitle heleneWorkTitle">
@@ -89,7 +91,7 @@ export default function Helene() {
                                                 <div className="qwidLast">
                                                       <p className="lastItem heleneLastItem">Organization: Helene Business </p>
                                                       <p className="lastItem heleneLastItem">Role: UI & UX Designer</p>
-                                                      <p className="lastItem heleneLastItem"> View Product</p>
+                                                      <p className="lastItem heleneLastItem" style={{ textDecoration: "underline", cursor: "pointer" }} onClick={() => { window.location.href = "https://play.google.com/store/apps/details/Helene_Invoicing_and_Billing?id=com.helene.invoice&gl=US&pli=1" }}> View Product</p>
 
 
                                                 </div>
