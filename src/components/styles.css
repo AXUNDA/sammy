@@ -994,10 +994,12 @@
 
       .cardImg {
             margin-top: 39px;
-            height: 590px;
+            /* height: 590px; */
+            height: 700px;
             width: 100%;
             object-fit: cover;
       }
+
 
 
 

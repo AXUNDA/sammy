@@ -10,6 +10,9 @@ import beacamp from "../assets/beacamp.png"
 import Connect from '../components/Connect'
 import Footer from '../components/Footer'
 import Screens from '../components/Screens'
+import blinqPay from "../assets/blinqPayHeader.png"
+import rhendaHeader from "../assets/rhendaHeader.png"
+
 
 export default function Work() {
 
@@ -51,14 +54,15 @@ export default function Work() {
                                     />
                                     <SmallCard
 
-                                          title={"pudio"}
+                                          title={"rhenda"}
                                           desc={"Pudio is a mobile app focused on bridging the gap between audio contents and video contents for knowledge seekers to acquire more knowledge anywhere and anytime."}
                                           niche1={"Mobile App"}
                                           niche2={"Edu-Tech"}
                                           niche3={"Product"}
-                                          img={pudio}
+                                          img={rhendaHeader}
 
                                     />
+
 
                               </div>
                               <div className="work">
@@ -76,11 +80,11 @@ export default function Work() {
                                     />
 
                                     <BigCard
-                                          title={"Beacamp"}
-                                          desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
-                                          img={beacamp}
-                                          niche1={"Web App"}
-                                          niche2={"Edu-Tech"}
+                                          title={"Blinqpay"}
+                                          desc={"  Merchant Checkout out system"}
+                                          img={blinqPay}
+                                          niche1={"Web"}
+                                          niche2={"Fin-Tech"}
                                           niche3={"Product"}
 
 
@@ -91,9 +95,9 @@ export default function Work() {
                               </div>
                               <div className="work">
                                     <BigCard
-                                          title={"qwid"}
+                                          title={"Beacamp"}
                                           desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
-                                          img={qwid}
+                                          img={beacamp}
                                           niche1={"Web App"}
                                           niche2={"Fin-Tech"}
                                           niche3={"Product"}

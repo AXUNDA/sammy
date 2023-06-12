@@ -23,7 +23,7 @@ export default function Connect() {
                               Connect on LinkedIn
 
                         </a>
-                        <span>
+                        <span style={{ marginLeft: "3px" }}>
                               and let's discuss how i can help you
                         </span>
                   </p>

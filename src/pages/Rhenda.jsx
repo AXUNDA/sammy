@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import headerImage from "../assets/rhendaHeaderImage.png"
 import Nav from '../components/Nav'
 import onboarding1 from "../assets/rhendaOnboarding1.png"
@@ -33,6 +33,7 @@ import explore4 from '../assets/explore4.png'
 import explore5 from '../assets/explore5.png'
 import explore6 from '../assets/explore6.png'
 import Footer from '../components/Footer'
+import Bulb from '../components/Bulb'
 
 
 
@@ -60,6 +61,23 @@ import Footer from '../components/Footer'
 
 
 const Rhenda = () => {
+      const [isLoading, setIsLoading] = useState(true);
+
+      function scroll() {
+            window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+            });
+
+      }
+      useEffect(() => {
+            scroll()
+
+
+            setTimeout(() => {
+                  setIsLoading(false);
+            }, 3000);
+      }, []);
       return (
             <div>
                   <Nav />

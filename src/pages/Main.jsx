@@ -25,6 +25,7 @@ import movingImage8 from "../assets/movingImage8.png"
 import movingImage9 from "../assets/movingImage9.jpg"
 import movingImage10 from "../assets/movingImage10.png"
 import Fire from "../components/Fire"
+import blinqPay from "../assets/blinqPayHeader.png"
 
 
 
@@ -115,11 +116,11 @@ function Main() {
                                     />
 
                                     <BigCard
-                                          title={"Beacamp"}
-                                          desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
-                                          img={beacamp}
-                                          niche1={"Web App"}
-                                          niche2={"Edu-Tech"}
+                                          title={"Blinqpay"}
+                                          desc={"  Merchant Checkout out system"}
+                                          img={blinqPay}
+                                          niche1={"Web "}
+                                          niche2={"Fin-Tech"}
                                           niche3={"Product"}
 
 
