@@ -57,7 +57,7 @@ export default function Work() {
                                           title={"rhenda"}
                                           desc={"Pudio is a mobile app focused on bridging the gap between audio contents and video contents for knowledge seekers to acquire more knowledge anywhere and anytime."}
                                           niche1={"Mobile App"}
-                                          niche2={"Edu-Tech"}
+                                          niche2={"B2B/B2C"}
                                           niche3={"Product"}
                                           img={rhendaHeader}
 

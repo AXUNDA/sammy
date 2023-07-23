@@ -73,7 +73,7 @@ export default function Helene() {
                                                       Helene
                                                 </p>
                                                 <p className="qwidYear">
-                                                      September 2021- 4 weeks
+                                                      September 2021- 6 weeks
                                                 </p>
                                                 <div className="qwidNiches">
                                                       <p className="qwidNiche">Mobile App</p>
@@ -85,7 +85,7 @@ export default function Helene() {
 
                                                 </div>
                                                 <p className="qwidWorkTitle heleneWorkTitle">
-                                                      Dashboard Revamp
+                                                      Invoicing app
 
                                                 </p>
                                                 <div className="qwidLast">

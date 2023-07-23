@@ -10,6 +10,7 @@ import Helene from "./pages/Helene"
 import { Responsive } from "./components/Responsive"
 import Bulb from "./components/Bulb"
 import Rhenda from "./pages/Rhenda"
+import Blinqpay from "./pages/Blinqpay"
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
           <Route path="/rhenda" element={<Rhenda />} />
 
           <Route path="/animate" element={<Responsive />} />
+          <Route path="/Blinqpay" element={<Blinqpay />} />
+
           <Route path="*" element={<Bulb />} />
 
 

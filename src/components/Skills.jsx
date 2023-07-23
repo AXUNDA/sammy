@@ -19,8 +19,10 @@ export default function Skills() {
                               <h1 className="niche">User research</h1>
                               <h1 className="niche">Prototyping</h1>
                               <h1 className="niche">Product thinking</h1>
-                              <h1 className="niche">Context</h1>
-                              <h1 className="niche">Flow Mapping</h1>
+                              <h1 className="niche">Usability testing</h1>
+                              <h1 className="niche">Design documentation</h1>
+                              <h1 className="niche">Interactive design</h1>
+
 
 
 

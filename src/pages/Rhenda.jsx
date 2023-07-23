@@ -34,6 +34,13 @@ import explore5 from '../assets/explore5.png'
 import explore6 from '../assets/explore6.png'
 import Footer from '../components/Footer'
 import Bulb from '../components/Bulb'
+import homePage1 from '../assets/rhendaHomePage1.png'
+import homePage2 from '../assets/rhendaHomePage2.png'
+import homePage3 from '../assets/rhendaHomePage3.png'
+import homePage4 from '../assets/rhendaHomePage4.png'
+
+
+
 
 
 
@@ -97,7 +104,7 @@ const Rhenda = () => {
 
                                     </div>
                                     <p className="qwidWorkTitle">
-                                          An audio learning/podcast platform.
+                                          An service providing platform.
 
                                     </p>
                                     <div className="qwidLast">
@@ -278,22 +285,34 @@ const Rhenda = () => {
 
                         </p>
                         <div className="rhendaImagesContainer">
-                              <img src={longImage} alt="" className="rhendaLongImage" />
+                              {/* <img src={longImage} alt="" className="rhendaLongImage" /> */}
                               <div className="rhendaColumnImage">
-                                    <img src={onboarding4} alt="" className="hifi2 hifi3" />
-                                    <img src={onboarding4} alt="" className="hifi2 hifi3" />
+                              <img src={homePage1} alt="" className="hifi2 hifi3" />
+
+                              <img src={homePage2} alt="" className="hifi2 hifi3" />
+
+                                    <img src={homePage3} alt="" className="hifi2 hifi3" />
+                                    <img src={homePage4} alt="" className="hifi2 hifi3" />
+
+
 
 
                               </div>
-                              <div className="rhendaColumnImage">
+                             
+
+                              {/* <div className="rhendaColumnImage">
                                     <img src={onboarding4} alt="" className="hifi2 hifi3" />
                                     <img src={onboarding4} alt="" className="hifi2 hifi3" />
 
 
-                              </div>
+                              </div> */}
 
                         </div>
-
+                        <div className='w-70Container'>
+                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                              The home screen also has a search feature strategically placed so as not to be missed. The search feature offers an alternative to users as it may be quicker if they are looking for a specific vendor/artisan. On the home screen there’s a feeds sections where users can see post from both artisans and users, we wanted at a social feeling to the platform to keep users engaged.
+                              </p>
+                        </div>
                   </div>
                   <div className="hifiMockups">
                         <p className="hifiHeader">
@@ -326,7 +345,7 @@ const Rhenda = () => {
                   </div>
                   <div className="hifiMockups">
                         <p className="hifiHeader">
-                              User & Artisan Profile
+                           message
                         </p>
                         <div className="authenticationImages" style={{ gap: "12px", marginBottom: "10px" }}>
                               <img src={artisan1} alt="" className="hifi2 hifi3" />
@@ -339,6 +358,7 @@ const Rhenda = () => {
                               <img src={artisan6} alt="" className="hifi2 hifi3" />
                         </div>
                         <div className='w-70Container'>
+
                               <p className="Desc w-70" style={{ textAlign: "center" }}>
                                     The messaging feature in an artisan service provider app allows users to communicate directly with service providers in a convenient and efficient manner. It enables users to send and receive messages, inquiries, and requests related to the services they require. This feature fosters seamless and real-time communication between users and service providers, allowing for quick clarification of details, discussing project requirements, negotiating prices, and scheduling appointments. Users can easily engage in a dialogue with service providers, ensuring clear and effective communication throughout the service procurement process
                               </p>

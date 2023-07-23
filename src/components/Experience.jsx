@@ -11,7 +11,14 @@ export default function Experience() {
 
                         </p>
                         <p className="years">
-                              <span className='year'>2022-Present</span>
+                              <span className='year'>2022-2023</span>
+                              <p className="jobDesc"> Web Designer</p>
+                              <p className="where">Amply</p>
+
+
+                        </p>
+                        <p className="years">
+                              <span className='year'>2022-2023</span>
                               <p className="jobDesc">Product Designer</p>
                               <p className="where">Andela</p>
 
@@ -25,7 +32,7 @@ export default function Experience() {
 
                         </p>
                         <p className="years">
-                              <span className='year'>2022-Present</span>
+                              <span className='year'>2022-2023</span>
                               <p className="jobDesc">Product Designer</p>
                               <p className="where">Beacamp</p>
 
@@ -38,13 +45,13 @@ export default function Experience() {
 
 
                         </p>
-                        <p className="years">
+                        {/* <p className="years">
                               <span className='year'>2022-Present</span>
                               <p className="jobDesc">Front-End developer</p>
                               <p className="where">Helene Business</p>
 
 
-                        </p>
+                        </p> */}
 
                   </div>
 

@@ -87,7 +87,7 @@ export default function Pudio() {
                                                       pudio
                                                 </p>
                                                 <p className="qwidYear">
-                                                      June 2021- 2 months
+                                                      June 2021- 4 weeks
                                                 </p>
                                                 <div className="qwidNiches">
                                                       <p className="qwidNiche">Mobile App</p>
@@ -96,7 +96,7 @@ export default function Pudio() {
 
                                                 </div>
                                                 <p className="qwidWorkTitle">
-                                                      Dashboard Revamp
+                                                Audio learning platform
 
                                                 </p>
                                                 <div className="qwidLast">

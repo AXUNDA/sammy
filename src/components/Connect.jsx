@@ -11,7 +11,7 @@ export default function Connect() {
 
                   </p>
                   <p className="message">
-                        <a href="" className='connectLink'>
+                        <a href="mailto:saromenechris@gmail.com" className='connectLink'>
                               Send a message
                         </a>
 
@@ -19,7 +19,7 @@ export default function Connect() {
                               or
                         </span>
 
-                        <a href="" className='connectLink'>
+                        <a href="https://www.linkedin.com/in/samuel-christiann/" className='connectLink'>
                               Connect on LinkedIn
 
                         </a>
