@@ -227,7 +227,7 @@ export default function Helene() {
                                     </div>
                               </div>
                               <div className="pagination">
-                                    <p className="paginate" onClick={() => navigate("/qwid")}>Previous project</p>
+                                    <p className="paginate" onClick={() => navigate("/rhenda")}>Previous project</p>
                                     <p className="paginate" onClick={() => navigate("/pudio")}>Next project</p>
 
 

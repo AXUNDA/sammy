@@ -574,7 +574,7 @@ export default function Qwid() {
                               </div>
                               <div className="pagination">
                                     <p className="paginate" onClick={() => navigate("/pudio")}>Previous project</p>
-                                    <p className="paginate" onClick={() => navigate("/helene")}>Next project</p>
+                                    <p className="paginate" onClick={() => navigate("/rhenda")}>Next project</p>
 
 
                               </div>

@@ -13,7 +13,7 @@ export default function Home() {
                   <h1 className='hi'>Hi, I'm Samuel</h1>
 
                   <p className='me'>
-                        I'm a Product designer who cares about solving complex problems,by deeply understanding the people around me and the world they live in
+                        I'm a Product designer who cares about solving complex problems, by deeply understanding the people around me and the world they live in
                   </p>
                   <a href="http://bit.ly/40gituu" target="_blank" className='resume'>
                         <p className='cv'>See Resume <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right right-arrow" viewBox="0 0 16 16">

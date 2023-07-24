@@ -104,7 +104,7 @@ const Rhenda = () => {
 
                                     </div>
                                     <p className="qwidWorkTitle">
-                                          An service providing platform.
+                                          A service providing platform.
 
                                     </p>
                                     <div className="qwidLast">
@@ -380,9 +380,9 @@ const Rhenda = () => {
                               <img src={rhendaPost6} alt="" className="hifi2 hifi3" />
                         </div>
                         <div className='w-70Container'>
-                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                              {/* <p className="Desc w-70" style={{ textAlign: "center" }}>
                                     The home screen also has a search feature strategically placed so as not to be missed. The search feature offers an alternative to users as it may be quicker if they are looking for a specific vendor/artisan. On the home screen there’s a feeds sections where users can see post from both artisans and users, we wanted at a social feeling to the platform to keep users engaged.
-                              </p>
+                              </p> */}
                         </div>
 
                   </div>
@@ -401,14 +401,14 @@ const Rhenda = () => {
                               <img src={explore6} alt="" className="hifi2 hifi3" />
                         </div>
                         <div className='w-70Container'>
-                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                              {/* <p className="Desc w-70" style={{ textAlign: "center" }}>
                                     The home screen also has a search feature strategically placed so as not to be missed. The search feature offers an alternative to users as it may be quicker if they are looking for a specific vendor/artisan. On the home screen there’s a feeds sections where users can see post from both artisans and users, we wanted at a social feeling to the platform to keep users engaged.
-                              </p>
+                              </p> */}
                         </div>
 
                   </div>
                   <div className="pagination">
-                        <p className="paginate" onClick={() => navigate("/pudio")}>Previous project</p>
+                        <p className="paginate" onClick={() => navigate("/qwid")}>Previous project</p>
                         <p className="paginate" onClick={() => navigate("/helene")}>Next project</p>
 
 

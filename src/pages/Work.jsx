@@ -54,8 +54,8 @@ export default function Work() {
                                     />
                                     <SmallCard
 
-                                          title={"rhenda"}
-                                          desc={"Pudio is a mobile app focused on bridging the gap between audio contents and video contents for knowledge seekers to acquire more knowledge anywhere and anytime."}
+                                          title={"Rhenda"}
+                                          desc={"Rhenda is a service provider platform that links users with a diverse range of artisans offering various services. The platform acts as a bridge, connecting customers seeking artisanal services with skilled artisans capable of fulfilling their needs."}
                                           niche1={"Mobile App"}
                                           niche2={"B2B/B2C"}
                                           niche3={"Product"}
@@ -96,10 +96,10 @@ export default function Work() {
                               <div className="work">
                                     <BigCard
                                           title={"Beacamp"}
-                                          desc={"  qwid is a remittance platform where users can perform cross-border payments easily and at an affordable rate. It also provide remittance services"}
+                                          desc={"Beacamp empowers professionals and newbies in Developer Relations (DevRel) and Marketing. Our comprehensive courses, expert instructors, and career-focused resources provide individuals with the knowledge and skills they need to excel in fostering developer communities, driving developer adoption, and building successful developer-centric products."}
                                           img={beacamp}
                                           niche1={"Web App"}
-                                          niche2={"Fin-Tech"}
+                                          niche2={"Edu-Tech"}
                                           niche3={"Product"}
 
 

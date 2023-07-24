@@ -18,19 +18,20 @@ export default function Experience() {
 
                         </p>
                         <p className="years">
-                              <span className='year'>2022-2023</span>
-                              <p className="jobDesc">Product Designer</p>
-                              <p className="where">Andela</p>
-
-
-                        </p>
-                        <p className="years">
                               <span className='year'>2022-Present</span>
                               <p className="jobDesc">Product Designer</p>
                               <p className="where">Blinqpay</p>
 
 
                         </p>
+                        <p className="years">
+                              <span className='year'>2022-2023</span>
+                              <p className="jobDesc">Product Designer</p>
+                              <p className="where">Andela</p>
+
+
+                        </p>
+                       
                         <p className="years">
                               <span className='year'>2022-2023</span>
                               <p className="jobDesc">Product Designer</p>
