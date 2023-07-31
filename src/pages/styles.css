@@ -1594,13 +1594,13 @@ li {
       .pudioHeader {
 
             height: auto;
-            height: 750px;
+            height: 720px;
 
 
       }
 
       .pudioHeaderImg1 {
-            width: 185px;
+            width: 124px;
             object-fit: contain;
             height: auto;
             top: -90px;
@@ -1730,7 +1730,7 @@ li {
 
 
             top: -110px;
-            width: 190px;
+            width: 140px;
             object-fit: contain;
 
 
@@ -1846,6 +1846,10 @@ li {
       }
       .imageSlider{
             height: auto;
+      }
+      .hifiHeader{
+            margin-left: 0;
+            text-align: center;
       }
 
 
