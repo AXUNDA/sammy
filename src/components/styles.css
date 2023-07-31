@@ -995,7 +995,7 @@
       .cardImg {
             margin-top: 39px;
             /* height: 590px; */
-            height: 700px;
+            height: 380px;
             width: 100%;
             object-fit: cover;
       }
@@ -1020,6 +1020,7 @@
       .bigCard {
             width: 100%;
             margin-bottom: 15px;
+            height: 700px;
       }
 
       .smallCard {
