@@ -66,7 +66,7 @@ export default function Helene() {
                   {isLoading ? (<Image />) : (
                         <div className='helene'>
                               <Nav work={true} />
-                              <div className="pudioHeader">
+                              <div className="pudioHeader helene_header">
                                     <div className="pudioContainer">
                                           <div className="headerLeft">
                                                 <p className="qwidTitle">

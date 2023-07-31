@@ -88,8 +88,8 @@ const Rhenda = () => {
       return (
             <div>
                   <Nav />
-                  <div className="pudioHeader" style={{ background: "#45045F" }}>
-                        <div className="pudioContainer">
+                  <div className="pudioHeader rhenda_header" style={{ background: "#45045F" }}>
+                        <div className="pudioContainer rhenda_header">
                               <div className="headerLeft">
                                     <p className="qwidTitle">
                                           rhenda
@@ -117,9 +117,9 @@ const Rhenda = () => {
 
                               </div>
                               <div className="pudioImages">
-                                    <img src={headerImage} alt="" className="pudioHeaderImg1" />
+                                    <img src={headerImage} alt="" className="pudioHeaderImg1 rhenda_top1" />
 
-                                    <img src={headerImage} alt="" className="pudioHeaderImg2" />
+                                    <img src={headerImage} alt="" className="pudioHeaderImg2 rhenda_top2" />
 
 
                               </div>
