@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import headerImage from "../assets/rhendaHeaderImage.png"
 import Nav from '../components/Nav'
 import onboarding1 from "../assets/rhendaOnboarding1.png"
@@ -68,6 +69,7 @@ import homePage4 from '../assets/rhendaHomePage4.png'
 
 
 const Rhenda = () => {
+      const navigate = useNavigate()
       const [isLoading, setIsLoading] = useState(true);
 
       function scroll() {
@@ -87,12 +89,12 @@ const Rhenda = () => {
       }, []);
       return (
             <div>
-                  <Nav />
+                  <Nav  work={true}/>
                   <div className="pudioHeader rhenda_header" style={{ background: "#45045F" }}>
                         <div className="pudioContainer rhenda_header">
                               <div className="headerLeft">
                                     <p className="qwidTitle">
-                                          rhenda
+                                          Rhenda
                                     </p>
                                     <p className="qwidYear">
                                           Duration- 2 months
@@ -309,9 +311,9 @@ const Rhenda = () => {
 
                         </div>
                         <div className='w-70Container'>
-                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                              {/* <p className="Desc w-70" style={{ textAlign: "center" }}>
                               The home screen also has a search feature strategically placed so as not to be missed. The search feature offers an alternative to users as it may be quicker if they are looking for a specific vendor/artisan. On the home screen there’s a feeds sections where users can see post from both artisans and users, we wanted at a social feeling to the platform to keep users engaged.
-                              </p>
+                              </p> */}
                         </div>
                   </div>
                   <div className="hifiMockups">
@@ -359,9 +361,9 @@ const Rhenda = () => {
                         </div>
                         <div className='w-70Container'>
 
-                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                              {/* <p className="Desc w-70" style={{ textAlign: "center" }}>
                                     The messaging feature in an artisan service provider app allows users to communicate directly with service providers in a convenient and efficient manner. It enables users to send and receive messages, inquiries, and requests related to the services they require. This feature fosters seamless and real-time communication between users and service providers, allowing for quick clarification of details, discussing project requirements, negotiating prices, and scheduling appointments. Users can easily engage in a dialogue with service providers, ensuring clear and effective communication throughout the service procurement process
-                              </p>
+                              </p> */}
                         </div>
 
                   </div>

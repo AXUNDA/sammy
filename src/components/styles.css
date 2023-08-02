@@ -976,6 +976,16 @@
       .engagements {
             width: 100%;
       }
+      .aboutContent {
+        
+            margin-right: 20px;
+            margin-left: 20px;
+            
+      
+      }
+      .para{
+            font-size: 16px;
+      }
 
       .me {
             width: 100%;
@@ -1065,6 +1075,27 @@
 
       .years {
             gap: 8px;
+            flex-direction:column;
+            text-align: start;
+            margin-bottom: 25px;
+            gap: 0;
+      }
+      .year{
+            width: 100%;
+      }
+      .where{
+            width: 100%;
+            margin-top: 10px;
+      }
+      .jobDesc{
+            width: 100%;
+            margin-bottom: 10px;
+      }
+      .experienceContent{
+            margin-left: 20px;
+      }
+      .experience{
+            height: auto;
       }
 
       .smallCardImg {
