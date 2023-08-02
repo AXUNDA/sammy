@@ -192,7 +192,7 @@ const Rhenda = () => {
                                                 hese young people use various digital solutions that enable them to purchase goods and services online and spend most of their time on their phones.
                                           </li>
                                     </ul>
-                                    <p className="pudioHeadline">
+                                    {/* <p className="pudioHeadline">
                                           learners :
 
                                     </p>
@@ -208,7 +208,7 @@ const Rhenda = () => {
 
                                           </li>
 
-                                    </ul>
+                                    </ul> */}
 
 
                               </div>
@@ -338,9 +338,9 @@ const Rhenda = () => {
 
                         </div>
                         <div className='w-70Container'>
-                              <p className="Desc w-70" style={{ textAlign: "center" }}>
+                              {/* <p className="Desc w-70" style={{ textAlign: "center" }}>
                                     The map feature is a valuable feature that enables users to easily locate and access various skilled professionals in their area. By utilizing the map feature, users can view a visual representation of the nearby service providers, allowing them to identify the most convenient options.Through the map feature, users can refine their search by specifying their desired location, ensuring that they find artisans who are within a certain proximity. This feature helps users save time and effort by connecting them with service providers who are geographically accessible.
-                              </p>
+                              </p> */}
 
                         </div>
 

@@ -81,7 +81,7 @@ export default function Work() {
 
                                     <BigCard
                                           title={"Blinqpay"}
-                                          desc={"  Merchant Checkout out system"}
+                                          desc={"Merchant check out system that helps businesses to process transactions and accept payments from customers, ranging from point-of-sale terminals, online payment gateway and mobile payments"}
                                           img={blinqPay}
                                           niche1={"Web"}
                                           niche2={"Fin-Tech"}
